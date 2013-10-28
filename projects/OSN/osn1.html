@@ -1,0 +1,332 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+		<div style="font-weight: bold; margin-left: 30px; text-align: left;" class="header"><br>
+				<big>     <big><big><span style="color: rgb(153, 51,
+		 0);"><br>iOn-OSN: Measurement &amp; Characterization of Online Social Networks
+		  </span><br><br>
+				</big></big> </big></div><div style="font-weight: bold; margin-left: 40px;" class="header">
+				<table>
+				<tbody><tr>
+				<td>
+				<ul>
+						<li><b><a href="#Overview">Overview</a></b></li>
+				
+						<li><b><a href="#Projects">Projects</a></b></li>
+				<ul>
+				<li><b><a href="#Evol">Evolution of User Population &amp; Their
+				Activities in MySpace</a></b></li>
+
+						<li><b><a href="#Char">Characterizing Fan-Owner Interactions
+						in Flickr</a></b></li>
+						
+						<li><b><a href="#Sampling">Unbiased Sampling of User
+						Properties</a></b></li>
+						
+				</ul>
+						<li><b><a href="#People">Project Members</a></b></li>
+						<li><b><a href="#Public">Publications</a></b></li>
+						<li><b><a href="#Code">Code and Data</a></b></li>
+						<li><b><a href="#Ack">Acknowledgment and Disclaimer</a></b></li>
+				</ul>
+				</td>
+				<td>
+				<img alt="University of Oregon" src="logo-colored.jpg" style="width:100%;">
+				</td>
+				</tr>
+				</tbody></table>
+					<br><br><br>
+					</div>
+
+					<div style="font-weight: bold; margin-left: 40px;" class="header;">
+				<span style="color: rgb(123, 0, 0);">
+				   <big>
+					<a name="Overview"></a>Overview</big></span><br>
+					<hr style="width: 100%; height: 2px;"></div>
+					<div style="text-align: left; margin-left: 40px;">
+		<p>
+		Over the last few years, Online Social Networks (OSNs) such as MySpace and
+		Facebook have attracted hundreds of millions of users and have been
+		responsible for a new wave of popular application over the Internet. The
+		dramatic increase in the popularity of OSNs have prompted network
+		researchers and practitioners to examine the connectivity structure of
+		well-known OSNs and the growth of their user population over time. 
+		</p>
+		<p>
+		Online Social Network (OSN) are often represented as graph where nodes
+		correspond to users and links reflect the friendship or interactions among
+		users. Such graph representations can be annotated by various node or link
+		attributes and are usually derived from a snapshot that is obtained through
+		measurements of the system. These graph representations enable researchers
+		to characterize the connectivity of these systems using various techniques
+		from graph analysis and relying on an array of graph metrics such as degree
+		distribution, diameter, clustering co-efficient. 
+		</p>
+		<p>
+		Previous studies on networked systems that have adopted this approach
+		typically suffer from three important shortcomings: 
+		</p><ul>
+		<li><b>Distorted Data</b>: Captured snapshots of large-scale networked systems are
+		likely to be distorted which in turn leads to inaccurate representation of
+		the system and thus to potentially incorrect results. 
+		</li>
+
+		<li>
+		<b>Indirect Characterization</b>: commonly-used graph metrics or statistics,
+		characterize the connectivity structure, only if the connectivity graph is indirect
+		and thus have only limited use; One can produce a set of synthetic graphs which
+		have the exact same metrics or statistics but exhibit fundamentally
+		different connectivity structures. 
+		</li>
+		<li>
+		<b>Graph Dynamics</b>: Evolution of OSNs is in general ignored despite the fact
+		that most real-world OSNs evolve over time, often at a fast rate. In the
+		absence of a more careful and meaningful characterization of graph
+		connectivity, it is difficult to examine the structural properties of these
+		system, study their evolution over time, or compare the connectivity graphs
+		of different systems. 
+		</li>
+		</ul>
+		<p></p>
+
+		<p>
+		The goal of this multi-disciplinary project is to design, develop and
+		rigorously evaluate theoretically grounded techniques to accurately measure
+		and properly characterize the connectivity structure and in large-scale and
+		dynamic networked systems with multi-attribute nodes or links. Furthermore,
+		we explore social and technical root-causes of observed properties. 
+		</p>
+
+					</div>
+					
+
+		<br><br><br>
+		<div style="font-weight: bold; margin-left: 40px;" class="header;">
+				<span style="color: rgb(123, 0, 0);">
+				   <big>
+					<a name="Projects"></a>Projects</big></span><br>
+					<hr style="width: 100%; height: 2px;"></div>
+					<div style="text-align: left; margin-left: 40px;">
+
+		<a name="Evol"></a><b>Evolution of User Population &amp; Their Activities in MySpace</b>            
+		<p>
+		While some empirical studies on Online Social Networks (OSNs) have examined
+		the growth of these systems, little is known about the patterns of decline
+		in user population or user activity (in terms of visiting their OSN account)
+		in large OSNs, mainly because capturing the required information is
+		challenging. 
+		</p>
+		<p>
+		In this study, we examine the evolution of user population and user activity
+		in a popular OSN, namely MySpace. Leveraging more than 360K randomly sampled
+		profiles, we characterize both the pattern of departure and the level of
+		activity among MySpace users. Our main findings can be summarized as
+		follows: <i>(i)</i> A significant fraction of accounts have been deleted and a
+		large fraction of valid accounts have not been visited for more than three
+		months. <i>(ii)</i> One third of public accounts are owned by users who abandon
+		their accounts shortly after creation (i.e., tourists). We leverage this
+		information to estimate the account creation time of other users from their
+		user IDs. <i>(iii)</i> We demonstrate that the growth of allocated user IDs in
+		MySpace was exponential, followed by a sudden and significant slow-down in
+		April 2008 due to an increase in the popularity of Facebook. If such up- and
+		down-turns are symptomatic of OSNs, they raise the obvious question: What
+		are the main forces that enable some systems to compete and OSN eco-system,
+		while others d decline and ultimately die out? see our <a href="http://ix.cs.uoregon.edu/~moji/publication/wosn09.pdf">wosn'09 paper</a> for
+		more details.
+		</p><br>
+
+		<a name="Char"></a><b>Characterizing Fan-Owner Interactions in Flickr</b>
+		<p>
+		Most of the existing literature on empirical studies of Online Social
+		Networks (OSNs) have focused on characterizing and modeling the structure of
+		their inferred friendship graphs. However, the friendship graph of an OSN
+		does not demonstrate what fraction of its users actively interact with other
+		users, how these users interact, and how these active users and their
+		interactions evolve over time. 
+		</p>
+		<p>
+		In this study, we characterize indirect fan-owner interactions through
+		photos among users in a large photo-sharing OSN, namely Flickr. Our results
+		show that a very small fraction of users in the main component of the
+		friendship graph is responsible for the vast majority of fan-owner
+		interactions; moreover, these interactions involve only a small fraction of
+		photos in Flickr. We also characterize some of the temporal properties of
+		fan arrival. For example, we show that there is no strong correlation
+		between age and popularity of a photo and that most photos gain a majority
+		of their fans during the first week after their posting. Overall, our
+		findings provide new insights into the fan-owner interactions among Flickr
+		users. see our <a href="../../Masoud/WOSN09.pdf">wosn'09 paper</a>
+		for more details.
+		</p><br>
+
+		<a name="Sampling"></a><b> Unbiased Sampling of User Properties</b>
+		<p>
+		Reliable characterization of OSNs requires capturing the accurate snapshots
+		of their desired properties. OSN owners are often not willing to share this
+		information due to privacy concerns.if Given the large size and dynamic
+		nature of OSNs, it is often difficult to capture accurate snapshots of the
+		system. Sampling is the most promising approach to characterize "user
+		properties" without capturing complete snapshots of the system. In this
+		project, we investigate the accuracy of sampling techniques that use some
+		variations of random-walk, namely Metropolized Random Walk (MRW) Sampling
+		and Respondent Driven Sampling (RDS), over graphs that OSNs are likely to
+		exhibit. 
+		</p><br>
+
+		</div>
+		<br><br><br>
+
+		<div style="font-weight: bold; margin-left: 40px;" class="header;">
+				<span style="color: rgb(123, 0, 0);">
+				   <big>
+					<a name="People"></a>Project Members</big></span><br>
+					<hr style="width: 100%; height: 2px;"></div>
+					<div style="text-align: left; margin-left: 40px;">
+
+		<ul>
+		<li><a href="http://sociology.uoregon.edu/faculty/burris.php">
+		Val Burris (Department of Sociology, University of Oregon)</a>
+		</li>
+
+		<li>
+		<a href="http://fds.duke.edu/db/aas/math/faculty/mauro">
+		Mauro Maggioni (Department of Mathematics, Duke University) 
+		</a>
+		</li>
+
+		<li>
+		<a href="http://ix.cs.uoregon.edu/~reza/">
+		Reza Rejaie (Department of Computer and Information
+		Science, University of Oregon)
+		</a>
+		</li>
+
+		<li><a href="http://ix.cs.uoregon.edu/~moji/">
+		Mojtaba Torkjazi (Department of Computer and
+		Information Science, University of Oregon) 
+		</a>
+		</li>
+
+		<li>
+		<a href="http://ix.cs.uoregon.edu/~masoud/">
+		Masoud Valafar (Department of Computer and
+		Information Science, University of Oregon)
+		</a>
+		</li>
+
+		<li>
+		<a href="http://www.research.att.com/viewPage.cfm?pageID=86">
+		Walter Willinger (AT&amp;T Research Labs)
+		</a>
+		</li>
+
+		</ul>
+		</div>
+		<br><br><br>
+
+		<div style="font-weight: bold; margin-left: 40px;" class="header;">
+				<span style="color: rgb(123, 0, 0);">
+				   <big>
+					<a name="Public"></a>Publications</big></span><br>
+					<hr style="width: 100%; height: 2px;"></div>
+					<div style="text-align: left; margin-left: 40px;">
+
+		<ul>
+
+		<li>
+		Sizing-up Online Social Networks<br>
+		R. Rejaie, M. Torkjazi, M. Valafar, and W. Willinger, <br>
+		IEEE Network Special Issue on Online Social Networks, Volume 24, Number 5,
+		September/October 2010.
+		</li>
+		<br>
+
+		<li>
+		Research on Online Social Networks: Time to Face the Real Challenges<br>
+		W. Willinger, R. Rejaie, M. Torkjazi, M. Valafar, and M.
+		Maggioni,
+		<br> Proceedings of the <a href="http://www.sigmetrics.org/conferences/sigmetrics/2009/workshops/Hotmetrics2009-CFP-v6.shtml">2nd
+		Workshop on Hot Topics in Measurement and
+		Modeling of Computer Systems (HotMetrics'09)</a><br>
+		[<a href="http://www.cs.uoregon.edu/~moji/publication/hotmetrics09.pdf">pdf</a>][<a href="http://www.cs.uoregon.edu/~moji/slide/hotmetrics09.ppt">presentation</a>]
+
+		</li>
+
+		<li><p> Beyond Friendship Graphs: A Study of User Interactions in Flickr <br>
+		Masoud Valafar, Reza Rejaie, Walter Willinger <br> 
+		Proceedings of the <a href="http://conferences.sigcomm.org/sigcomm/2009/workshops/wosn/">
+		2nd ACM SIGCOMM Workshop on Social Networks (WOSN'09)</a><br>
+		[<a href="../../Masoud/WOSN09.pdf">pdf</a>]
+		[<a href="../../pub/masoud/WOSN09-Flickr.pptx">presentation</a>]
+		</p> 
+		</li>
+
+		<li>
+		<p>
+		Hot Today, Gone Tomorrow: On the Migration of MySpace Users<br>
+		Mojtaba Torkjazi, Reza Rejaie, Walter Willinger <br>
+		Proceedings of the <a href="http://conferences.sigcomm.org/sigcomm/2009/workshops/wosn/">
+		2nd ACM SIGCOMM Workshop on Social Networks (WOSN'09)</a><br>
+		[<a href="http://ix.cs.uoregon.edu/~moji/publication/wosn09.pdf">pdf</a>][<a href="http://www.cs.uoregon.edu/~moji/slide/wosn09.ppt">presentation</a>]
+		</p>
+		</li>
+
+		</ul>
+
+		</div>
+		<br><br><br>
+
+		<div style="font-weight: bold; margin-left: 40px;" class="header;">
+				<span style="color: rgb(123, 0, 0);">
+				   <big>
+					<a name="Code"></a>Code and Data</big></span><br>
+					<hr style="width: 100%; height: 2px;"></div>
+					<div style="text-align: left; margin-left: 40px;">
+		<p>
+		Please contact <a href="http://ix.cs.uoregon.edu/~masoud/">Masoud Valafar</a> 
+		for data and code. 
+		</p>
+		</div>
+		<br><br><br>
+
+
+		<div style="font-weight: bold; margin-left: 40px;" class="header;">
+				<span style="color: rgb(123, 0, 0);">
+				   <big>
+					<a name="Ack"></a>Acknowledgment and Disclaimer</big></span><br>
+					<hr style="width: 100%; height: 2px;"></div>
+					<div style="text-align: left; margin-left: 40px;">
+
+		<p>This material is based upon work supported by the National Science
+		Foundation under <a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0917381">Grant No. 0917381</a>. Any opinions, findings, and conclusions
+		or recommendations expressed in this material are those of the author(s) and
+		do not necessarily reflect the views of the National Science Foundation.</p>
+		</div>
+
+
+		<!-- Start of StatCounter Code -->
+		<script type="text/javascript">
+		var sc_project=5028834; 
+		var sc_invisible=1; 
+		var sc_partition=57; 
+		var sc_click_stat=1; 
+		var sc_security="ea615cbf"; 
+		</script>
+
+		<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript>&lt;div
+		class="statcounter"&gt;&lt;a title="wordpress visitor counter"
+		href="http://www.statcounter.com/wordpress.com/"
+		target="_blank"&gt;&lt;img class="statcounter"
+		src="http://c.statcounter.com/5028834/0/ea615cbf/1/"
+		alt="wordpress visitor counter" &gt;&lt;/a&gt;&lt;/div&gt;</noscript>
+		<!-- End of StatCounter Code -->
+	</body>
+</html>

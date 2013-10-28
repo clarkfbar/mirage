@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div class="document" id="the-ion-p2p-project-empirical-characterizations-of-p2p-systems">
+                <h1 class="title">The Ion P2P Project: Empirical Characterizations of P2P Systems</h1>
+                <table border="1" class="docutils">
+                    <colgroup>
+                        <col width="9%">
+                            <col width="11%">
+                                <col width="14%">
+                                    <col width="16%">
+                                        <col width="9%">
+                                            <col width="18%">
+                                                <col width="11%">
+                                                    <col width="10%">
+                    </colgroup>
+                    <tbody valign="top">
+                        <tr><td><a class="reference" href="page.html">Home</a></td>
+                            <td><a class="reference" href="cruiser.html">Global</a></td>
+                            <td><a class="reference" href="sampling.html">Sampling</a></td>
+                            <td><a class="reference" href="page.html#proptable">Properties</a></td>
+                            <td><a class="reference" href="snapshots.html">Data</a></td>
+                            <td><a class="reference" href="publications.html">Publications</a></td>
+                            <td><a class="reference" href="people.html">People</a></td>
+                            <td><a class="reference" href="links.html">Links</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>The ION P2P Project aims to improve our understanding of Peer-to-Peer
+                systems by answering two fundamental questions:</p>
+                <ul class="simple">
+                    <li>How do we collect accurate measurements from P2P systems?</li>
+                    <li>What are useful models to characterize their components?</li>
+                </ul>
+                <p>To answer these questions, we pursue the following goals: <em>(i)</em>
+                develop and verify accurate measurements techniques, <em>(ii)</em> present
+                empirical results which may be used to evaluate models and improve our
+                understanding of existing systems, and <em>(iii)</em> suggest useful
+                models based on the empirical observations.</p>
+                <div class="section">
+                    <h1><a id="about-peer-to-peer" name="about-peer-to-peer">About Peer-to-Peer</a></h1>
+                    <p>Peer-to-peer systems are becoming increasingly popular, with millions
+                    of simultaneous users and covering a wide range of applications, from
+                    file-sharing programs like LimeWire and eMule to Internet telephony
+                    services such as Skype.  Understanding existing systems and devising
+                    new P2P techniques relies on having access to representative models
+                    derived from empirical observations of existing systems.  However, the
+                    large and dynamic nature of P2P systems makes capturing accurate
+                    measurements challenging.</p>
+                    <p>While some prior studies have attempted to characterize different
+                    aspects of P2P systems, they have not taken the first step of
+                    critically examining their measurement tools (<em>i.e.</em>, answering the
+                    first question), leading to conflicting results or conclusions based
+                    on measurement artifacts (<em>e.g.</em>, power-law degree distributions may
+                    be the result of measurement error).</p>
+                </div>
+                <div class="section">
+                    <h1><a id="developing-accurate-measurement-techniques" name="developing-accurate-measurement-techniques">Developing Accurate Measurement Techniques</a></h1>
+                    <p>There are two basic approaches to collecting measurements from P2P
+                    systems, each with advantages and disadvantages.  The first approach
+                    is to <a class="reference" href="cruiser.html">capture a global view</a> by collecting data about every peer in
+                    the system.  The advantage of this approach is that all the
+                    information is available.  The typical problem with this approach is
+                    that the state changes while the measurement tool communicates with
+                    the peers, leading to a distorted view of the system.  The longer the
+                    tool requires to capture the global view, the more distorted the
+                    data.  Additionally, capturing a global view does not scale well.  As
+                    P2P systems grow larger, capturing a global view becomes more time
+                    consuming, leading to greater distortion.  To be at all practical,
+                    capturing a global view requires an exceptionally fast tool able to
+                    gather data from a large number of peers very quickly.</p>
+                    <p>The second approach is to <a class="reference" href="sampling.html">collect local samples</a>.  The advantage of
+                    this approach is that it scales well.  The Law of Large Numbers from
+                    statistics tells us that the average from a large number of samples
+                    will closely approximate the true average, regardless of the
+                    population size.  One disadvantage of sampling is that we cannot
+                    easily use samples to examine certain properties which are
+                    fundamentally global in nature.  For example, we cannot compute the
+                    diameter of a graph based on local observations at several peers.
+                    More importantly, if the collected samples are biased in some way, the
+                    resulting data may lead us to incorrect conclusions.  For this reason,
+                    capturing samples requires validation of the sampling tool, which must
+                    be carefully designed to avoid bias.</p>
+                </div>
+                <div class="section">
+                    <h1><a id="characterizing-properties" name="characterizing-properties">Characterizing Properties</a></h1>
+                    <p>Systematically tackling the problem of characterizing P2P systems
+                    requires a structured organization of the different components.  At
+                    the most basic level, a P2P system consists of a set of connected
+                    peers.  We can view this as a graph with the peers as vertices and the
+                    connections as edges.  One fundamental way we can divide the problem
+                    space is into <em>properties of the peers</em> versus <em>properties of the way
+                        peers are connected</em>.  Another fundamental division is examining the
+                    way the system <em>is</em> versus the way the system <em>evolves</em>.
+                    The table below presents an overview of several interesting
+                    properties categorized by whether they are static or dynamic, and
+                    whether they are peer properties or connectivity properties.</p>
+                    <table border="1" class="docutils" id="proptable">
+                        <colgroup>
+                            <col width="29%">
+                                <col width="37%">
+                                    <col width="33%">
+                        </colgroup>
+                        <thead valign="bottom">
+                            <tr><th class="head">&nbsp;</th>
+                                <th class="head">Peer Properties</th>
+                                <th class="head">Connectivity Properties</th>
+                            </tr>
+                        </thead>
+                        <tbody valign="top">
+                            <tr><td>Static Properties</td>
+                                <td><ul class="first last simple">
+                                    <li>Link bandwidth</li>
+                                    <li><a class="reference" href="shared_files.html">Shared Files</a></li>
+                                    <li><a class="reference" href="overlays.html">Geographic Location</a></li>
+                                </ul>
+                                </td>
+                                <td><ul class="first last simple">
+                                    <li><a class="reference" href="overlays.html">Degree Distribution</a></li>
+                                    <li><a class="reference" href="overlays.html">Clustering</a></li>
+                                    <li><a class="reference" href="overlays.html">Path Lengths</a></li>
+                                    <li><a class="reference" href="overlays.html">Resiliency</a></li>
+                                    <li><a class="reference" href="dhts.html">Lookup Efficiency</a></li>
+                                </ul>
+                                </td>
+                            </tr>
+                            <tr><td>Dynamic Properties</td>
+                                <td><ul class="first last simple">
+                                    <li><a class="reference" href="churn.html">Session Length</a></li>
+                                    <li><a class="reference" href="churn.html">Uptime</a></li>
+                                    <li><a class="reference" href="churn.html">Remaining Uptime</a></li>
+                                    <li><a class="reference" href="churn.html">Inter-arrival Interval</a></li>
+                                    <li><a class="reference" href="churn.html">Arrival Rate</a></li>
+                                    <li><a class="reference" href="bittorrent.html">Torrent Evolution</a></li>
+                                </ul>
+                                </td>
+                                <td><ul class="first last simple">
+                                    <li><a class="reference" href="overlays.html">Stable Core</a></li>
+                                    <li><a class="reference" href="rootcause.html">Induced Properties</a></li>
+                                </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="section">
+                    <h1><a id="acknowledgments" name="acknowledgments">Acknowledgments</a></h1>
+                    <p>This material is based upon work supported in part by the National
+                    Science Foundation (NSF) under Grant No. Nets-NBD-0627202 and an
+                    unrestricted gift from Cisco Systems.  Any opinions, findings, and
+                    conclusions or recommendations expressed in this material are those of
+                    the authors and do not necessarily reflect the views of the NSF or
+                    Cisco.</p>
+                </div>
+            </div>
+    </body>
+</html>

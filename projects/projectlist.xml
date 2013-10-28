@@ -1,0 +1,54 @@
+<projects>
+	<cproject>
+		<title>An Interdisciplinary Investigation of User Behavior &amp; Information Propagation in Social Computing Systems</title>
+		<url></url>
+	</cproject>
+    <cproject>
+		<title>Cross Network Analysis for Online Social Network</title>
+		<url></url>
+	</cproject>
+    <cproject>
+		<title>Leveraging Campus Network as an Experimental Testbed</title>
+		<url></url>
+	</cproject>
+    <cproject>
+		<title>PoP-level, Geo-Aware AS Mapping</title>
+		<url></url>
+	</cproject>
+    <cproject>
+		<title>Characterizing the Connectivity Features of Large OSNs</title>
+		<url></url>
+	</cproject>
+	<pproject>
+		<title>iOn-OSN: Measurement &amp; Characterization of Online Social Networks</title>
+		<url>OSN</url>
+	</pproject>
+	<pproject>
+		<title>Characterizing the Impact of P2P Overlay on the AS-level Underlay</title>
+		<url>P2P_Overlay</url>
+	</pproject>
+    <pproject>
+		<title>PRIME: Mesh-based Peer-to-Peer Streaming</title>
+		<url>PRIME</url>
+	</pproject>
+    <pproject>
+		<title>Ion P2P: Characterization of P2P networks</title>
+		<url>P2P</url>
+	</pproject>
+    <pproject>
+		<title>Botnet Defense</title>
+		<url>botnets</url>
+	</pproject>
+    <pproject>
+		<title>DHT Traffic Characterization</title>
+		<url>dht_char</url>
+	</pproject>
+    <pproject>
+		<title>PALS: Adaptive Receiver-Driven Streaming from Multiple Senders</title>
+		<url>PALS</url>
+	</pproject>
+    <pproject>
+		<title>Multimedia Content Distribution and Caching</title>
+		<url>Mocha</url>
+	</pproject>
+</projects>

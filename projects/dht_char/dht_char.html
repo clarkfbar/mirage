@@ -1,0 +1,186 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div style="font-weight: bold; margin-left: 30px; text-align: left;" class="header"><br>
+                <big>     <big><big><span style="color: rgb(153, 51,
+                    0);"><br>DHT Traffic Characterization
+                </span><br><br>
+                </big></big> </big></div><div style="font-weight: bold; margin-left: 40px;" class="header">
+                    <table>
+                        <tbody><tr>
+                            <td>
+                                <ul>
+                                    <li><b><a href="#Overview">Overview</a></b></li>
+                                    
+                                    <li><b><a href="#Projects">Projects</a></b></li>
+                                    <ul>
+                                        <li><b><a href="#Montra">Montra: Large-Scale DHT Traffic Monitor</a></b></li>
+                                        <li><b><a href="#Monkey">MONKey: Monitoring Publish Traffic in Kad</a></b></li>
+                                        
+                                        
+                                    </ul>
+                                    <li><b><a href="#People">Project Members</a></b></li>
+                                    <li><b><a href="#Public">Publications</a></b></li>
+                                    <li><b><a href="#Code">Code and Data</a></b></li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                        </tbody></table>
+                    <br><br><br>
+                </div>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Overview"></a>Overview</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                <p>
+                Distributed Hash Tables (DHTs) are Peer-to-Peer (P2P) networks that provide hash table-like functionality.  In a DHT, participating peers form a structured overlay where individual peers are responsible for storing and answering queries of a portion of the hash table's identifier space.  Since the hash table and query workload are distributed among peers, a DHT is able to provide lookup service with little to no infrastructure support.
+                </p>
+                <p>
+                These nice features of DHTs have attracted interest from both academia and industry since its inception. Later DHT designs, such as OpenDHT, Accordion, and Kademlia, focused on improving DHT design for better real-world deployment.  More recently, Kad and Azureus, both implementations of Kademlia, have been successfully deployed.
+                </p>
+                <p>
+                Better understanding of existing systems not only allows us to improve their performance, but also sheds light on the design of future DHT systems. While extensive simulation experiments, analysis and small scale deployments have been conducted in the past, few studies have been done on the existing systems with large numbers of peers. As a result, the real-world properties of large scale DHTs are not well understood. Our research effort focuses on understanding traffic characteristics of DHTs in the wild.
+                </p>
+                
+            </div>
+            <br><br><br>
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Projects"></a>Projects</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <a name="Montra"></a><b>Montra: Large-Scale DHT Traffic Monitor.</b>
+                <p>
+				Accurate measurement of traffic in a DHT is a challenging task.  The sheer size of the problem is daunting: an appropriate portion of peers need to be monitored in order to collect sufficient data to draw any meaningful results.  An instrumented peer can be deployed to collect the traffic data it receives.  However, deploying a large number of monitoring peers requires a significant amount of computing resources and network bandwidth.  Furthermore, monitoring peers need to participate in the DHT so as to monitor it.  The addition of a large number of monitoring peers may drastically alter the traffic pattern inside DHT, potentially making the measurement results biased or even invalid.
+                </p>
+                <p>
+				We present a DHT traffic-monitoring technique, called Montra, that can monitor queries to tens of thousands of peers using modest resources, without significantly disturbing the DHT's normal operation. We implement Montra in the form of a highly parallel, scalable python based client to monitor Kad and Azureus, which are large-scale DHTs. We rigorously evaluate our implementation of Montra using actual Kad and Azureus networks. We found that our implementation of Montra can accurately monitor around 32,000 Kad peers and 37,000 Azureus peers using a moderately configured PC (an Intel Core 2 Duo with 1GB RAM) and can capture more than 90% of query traffic observed by monitored peers. In addition, Montra can also identify destination peers for 90% of captured traffic. Finally, we conduct a detailed characterization study of captured traffic.
+                
+                </p>
+                <br>
+                
+            </div>
+            
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <a name="Monkey"></a><b>MONKey: Monitoring Publish Traffic in Kad.</b>
+                <p>
+				Monkey is an extension of Montra. It is aimed at monitoring global publish traffic in the Kad DHT to understand the user publish behavior and the content (files and keywords) in the DHT. We use Montra's captured traffic to find the most popular keywords. Then, we monitor those keywords to observe majority of publish behavior in Kad.
+                </p>
+                <br>
+                
+            </div>
+            <br><div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="People"></a>Project Members</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <ul>
+                    <li><a href="http://www.cs.uoregon.edu/~gmemon/">Ghulam Memon (Department of Computer and Information Science, University of Oregon)</a>
+                    </li>
+                    <li><a href="http://www.barsoom.org/">Daniel Stutzbach (Stutzbach Enterprises)</a>
+                    </li>
+                    <li>Yang Guo (Corporate Research, Thomson)
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="http://ix.cs.uoregon.edu/~reza/">
+                            Reza Rejaie (Department of Computer and Information
+                            Science, University of Oregon)
+                        </a>
+                    </li>
+                    
+                    
+                    
+                </ul>
+            </div>
+            <br><br><br>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Public"></a>Publications</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <ul>
+                    <li><p> Large-Scale Monitoring of DHT Traffic <br>
+                        Ghulam Memon, Reza Rejaie, Yang Guo, Daniel Stutzbach <br>
+                        Proceedings of <a href="http://www.usenix.org/event/iptps09/">
+                            8th International Workshop on Peer-to-Peer Systems (IPTPS '09)</a><br>
+                        [<a href="../../pub/iptps09-montra.pdf">pdf</a>]
+                        
+                        [<a href="../../slide/memon-iptps-2009.ppt">slides</a>]
+                        </p> 
+                    </li>
+                    
+                    <li><p> Montra: Large-Scale DHT Traffic Monitor <br>
+                        Ghulam Memon, Daniel Stutzbach, Yang Guo, Reza Rejaie <br> 
+                        Journal Version in Submission
+                        </p> 
+                    </li>
+                    
+                    <li><p> How to place DHT traffic monitors? Experiences from large-scale DHT traffic monitoring <br>
+                        Ghulam Memon, Reza Rejaie. <br> 
+                        In preparation
+                        </p> 
+                    </li>
+                    
+                    
+                </ul>
+                
+            </div>
+            <br><br><br>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Code"></a>Code and Data</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                <p>
+                Please contact <a href="http://www.cs.uoregon.edu/~gmemon/">Ghulam Memon</a> 
+                for data and code. 
+                </p>
+            </div>
+            <br><br><br>
+            
+            
+            
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <p></p>
+            </div>  <!-- Start of StatCounter Code <script type="text/javascript">
+                     var sc_project=5028834; 
+                     var sc_invisible=1; 
+                     var sc_partition=57; 
+                     var sc_click_stat=1; 
+                     var sc_security="ea615cbf"; 
+                     </script><script type="text/javascript"
+                     src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+                     class="statcounter"><a title="wordpress visitor counter"
+                     href="http://www.statcounter.com/wordpress.com/"
+                     target="_blank"><img class="statcounter"
+                     src="http://c.statcounter.com/5028834/0/ea615cbf/1/"
+                     alt="wordpress visitor counter" ></a></div></noscript>
+                     End of StatCounter Code -->
+            <br>
+    </body>
+</html>

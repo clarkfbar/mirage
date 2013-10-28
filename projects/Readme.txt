@@ -1,0 +1,2 @@
+The structure of the project page is in Sample folder. When you create new project page, you can copy and paste it and add your content to the sample.html.
+Also, remember to add the new project page to projectlist.xml, so that the link will be shown on the page

@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div style="font-weight: bold; margin-left: 30px; text-align: left;" class="header"><br>
+                <big>     <big><big><span style="color: rgb(153, 51,
+                    0);"><br>Botnet Defense</span></big></big></big><big><big><big><span style="color: rgb(153, 51,
+                        0);"></span></big></big></big><big><big><big><br><br>
+                        </big></big> </big></div><div style="font-weight: bold; margin-left: 40px;" class="header">
+                            <table>
+                                <tbody><tr>
+                                    <td>
+                                        <ul>
+                                            <li><b><a href="#Overview">Overview</a></b></li>
+                                            
+                                            <li><b><a href="#Projects">Projects</a></b></li>
+                                            <ul>
+                                                <li><b><a href="#Tsunami">Tsunami: Identifying a New Class of Botnets</a></b></li>
+                                                
+                                                
+                                            </ul>
+                                            <li><b><a href="#People">Project Members</a></b></li>
+                                            <li><b><a href="#Public">Publications</a></b></li>
+                                            <li><b><a href="#Code">Code and Data</a></b></li>
+                                            
+                                        </ul>
+                                    </td>
+                                </tr>
+                                </tbody></table>
+                            <br><br><br>
+                        </div>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Overview"></a>Overview</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                <p>
+                A botnet is a network of malicious computers, called <em>zombies</em>. Zombies are controlled by a <em>botmaster</em><em></em>, which instructs the zombies to carry out various malicious activities. Examples of such activities include launching distributed denial of service attacks (DDoS), sending spam, conducting click fraud, and stealing personal information.
+                </p>
+                <p>
+                Botnets pose most lethal threat to the stability and security of the Internet. The research community has proposed several counter-measures. But, the botnets have evolved significantly over the past decade, to the point of in-disruption. Recent botnets use <em>redundancy</em> and <em>decentralization</em> to achieve resilience. For example, the Conficker botnet uses 50,000 web-servers to issue commands, and the Nugache botnet uses peer-to-peer (P2P) techniques for command and control (C&amp;C).
+                </p>
+                <p>
+                In our research effort, we continue the community's quest to find practical and deployable defense mechanisms against botnets, for current and next-generation Internet. We address the problem from a malicious and a non-malicious perspective. We have designed our own botnet to understand the design choices that a botmaster faces. This knowledge helps us in exploring different options for defense. In addition, we are conducting a botnet characterization study, by operating a non-malicious botnet. This study helps us in characterizing the human infection behavior. It also helps us in evaluating the strength of a moderately sized botnet. Based on our experience from these 2 projects, we are designing ISP level botnet defense mechanisms.
+                </p>
+                
+                
+            </div>  <br><br><br><div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Projects"></a>Projects</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <a name="Tsunami"></a><b>Tsunami: Identifying a new class of botnets.</b>
+                <p>
+                In this project, we design our own malicious botnet to understand the design choices a botmaster faces. This approach helps us in designing new defense techniques and in understanding their limitations.
+                </p>
+                <p>
+                Today's botnets use<em> redundancy</em> and <em>decentralization</em> to avoid disruption. For example, Conficker botnet uses 50,000 web-servers for C&amp;C, and Nugache uses 22 bootstrap nodes for it's peer-to-peer (P2P) botnet. Both the approaches require significant resources and effort (e.g. compromising 50,000 web-servers). In addition, the botnets are still prone to partial disruption.
+                </p>
+                <p>
+                We design a new botnet, called Tsunami, that avoids maintaining a dedicated network, and thus avoids special C&amp;C nodes. Tsunami uses widely-deployed application level networks for C&amp;C. Examples of such network include Distributed Hash Tables (DHTs) and Online Social Networks (OSNs). Tsunami bots must disguise themselves as regular application participants, and must use application protocol for communication. As a result of this approach, no bot is more critical than the other. Thus, a defender cannot disrupt the botnet by disrupting a few critical nodes. </p>
+                <p>
+                Tsunami bots do not know each other's identity because they disguise themselves as benign hosts. As a result, if a single Tsunami bot is captured, it does not reveal the identity of other bots, adding extra stealth to the botnet. However, this approach also makes C&amp;C challenging because traditional point-to-point links do not exist. Thus, the key challenge is to issue commands and recieve response without knowing bot identities. The details of Tsunami C&amp;C are explained in the paper.
+                </p>
+                <br>
+                
+            </div>
+            <br><div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="People"></a>Project Members</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <ul>
+                    <li><a href="http://www.cs.uoregon.edu/~gmemon/">Ghulam Memon (Department of Computer and Information Science, University of Oregon)</a>
+                    </li>
+                    <li><a href="http://www.cs.uoregon.edu/~lijun/">Jun Li (Department of Computer and Information Science, University of Oregon)</a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="http://ix.cs.uoregon.edu/~reza/">
+                            Reza Rejaie (Department of Computer and Information
+                            Science, University of Oregon)
+                        </a>
+                    </li>
+                    
+                    
+                    
+                </ul>
+            </div>
+            <br><br><br>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Public"></a>Publications</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <ul>
+                    
+                    <li><p> Tsunami: Identifying a New Class of Botnets. <br>
+                        Ghulam Memon, Jun Li, Reza Rejaie <br> 
+                        In Submission.
+                        </p> 
+                    </li>
+                    
+                </ul>
+                
+            </div>
+            <br><br><br>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Code"></a>Code and Data</big></span><br>
+                <hr style="width: 100%; height: 2px;"></div>
+            <div style="text-align: left; margin-left: 40px;">
+                <p>
+                Please contact <a href="http://www.cs.uoregon.edu/~gmemon/">Ghulam Memon</a> 
+                for data and code. 
+                </p>
+            </div>
+            <br><br><br>
+            
+            
+            
+            <div style="text-align: left; margin-left: 40px;">
+                
+                <p></p>
+            </div>  <!-- Start of StatCounter Code <script type="text/javascript">
+                     var sc_project=5028834; 
+                     var sc_invisible=1; 
+                     var sc_partition=57; 
+                     var sc_click_stat=1; 
+                     var sc_security="ea615cbf"; 
+                     </script><script type="text/javascript"
+                     src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+                     class="statcounter"><a title="wordpress visitor counter"
+                     href="http://www.statcounter.com/wordpress.com/"
+                     target="_blank"><img class="statcounter"
+                     src="http://c.statcounter.com/5028834/0/ea615cbf/1/"
+                     alt="wordpress visitor counter" ></a></div></noscript>
+                     End of StatCounter Code -->
+            <br>
+    </body>
+</html>

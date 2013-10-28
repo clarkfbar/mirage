@@ -1,0 +1,26 @@
+<menus>
+	<menu>
+		<name>Home</name>
+		<url>http://ix.cs.uoregon.edu/~zeyu/mirage</url>
+	</menu>
+	<menu>
+		<name>Projects</name>
+		<url>http://ix.cs.uoregon.edu/~zeyu/mirage/projects</url>
+	</menu>
+	<menu>
+		<name>Publications</name>
+		<url>http://ix.cs.uoregon.edu/~zeyu/mirage/publications</url>
+	</menu>
+	<menu>
+		<name>People</name>
+		<url>http://ix.cs.uoregon.edu/~zeyu/mirage/people</url>
+	</menu>
+	<menu>
+		<name>News</name>
+		<url>http://ix.cs.uoregon.edu/~zeyu/mirage/news</url>
+	</menu>
+	<menu>
+		<name>Resources</name>
+		<url>http://ix.cs.uoregon.edu/~zeyu/mirage/resource</url>
+	</menu>
+</menus>

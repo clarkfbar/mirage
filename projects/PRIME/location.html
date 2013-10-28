@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div style="font-weight: bold; margin-left: 40px;" class="header;"><br><br>
+                
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Release"></a>Software Release</big></span><br>
+                <hr style="width: 100%; height: 2px;"><br></div>
+            
+            <div style="MsoNormal" align="center">
+                <br>
+                <div style="text-align: left;
+                    margin-left: 40px;">
+                    Source code of PRIME is
+                    written in C++.&nbsp; The <a href="software/prime.tar.gz"><span style="text-decoration: underline;">PRIME.tar.gz</span></a> <span style="color: rgb(0, 0, 0);">contains the source code and executable
+                        binary. Upon uncompressing and unzipping the file you will get the
+                        following directories: </span><br>
+                </div>
+            </div>
+            <div class="MsoNormal" style="text-align: center;" align="center">
+                <div style="text-align: left;">
+                    <div style="text-align: left;">
+                        <ul>
+                            <ul>
+                                <li><span style="color: rgb(0, 0, 0);">PRIME : Contains
+                                    source and executable files for prime. <br>
+                                </span></li>
+                                <li><span style="color: rgb(0, 0, 0);">TCL: Contains
+                                    sample tcl files generating the underlay topology for NS-2, the
+                                    required input files and a README.tex that explains how to run the
+                                    code. </span></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="MsoNormal" style="text-align: center; margin-left: 40px;" align="center">
+                <div style="text-align: left;"> To compile and run the
+                    PRIME code with NS-2 you should modify the NS-2 as follows:<br><br>
+                    <ul>
+                        <li><span style="font-style: italic; font-weight: bold;">common/ns-process.h</span>:
+                            <br>
+                        </li>
+                        <ul>
+                            <li>Under "// Application-level data unit types" in
+                                "enum AppDataType {" add </li>
+                        </ul>
+                    </ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; // PALS ADU <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPAL_DATA, <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPAL_DATA, <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //PRIME ADU <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPRIME_Boot, <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; RPRIME_Sig,&nbsp; <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPAL_DATA3, <br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPRIME_MSG,<br><br><br>
+                    <ul>
+                        <ul>
+                            <li>In "class Process : public TclObject {" under
+                                "public:"&nbsp; add</li><br>
+                        </ul>
+                    </ul>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; virtual void
+                    process_udp_data(int size, AppData* data); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    virtual void process_rap_data(int size, AppData* data); <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    virtual AppData* get_prime_data(int&amp; size, int tfrcaddr); <br><br><br>
+                    <ul>
+                        <li><span style="font-style: italic; font-weight: bold;"> apps/udp.cc: <br>
+                        </span></li>
+                        <ul>
+                            <li>In function "UdpAgent::recv(Packet* pkt, Handler*)"
+                                replace<br><br>
+                            </li>
+                        </ul>
+                    </ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    app_-&gt;process_data(h-&gt;size(), pkt-&gt;userdata())&nbsp; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    by<br>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; app_-&gt;process_udp_data(h-&gt;size(),
+                    pkt-&gt;userdata())<br>
+                    <br><br>
+                    <ul>
+                        <li> <span style="font-style: italic; font-weight: bold;"> rap/rap.cc: <br>
+                        </span></li>
+                        <ul>
+                            <li>In function "RapAgent::recv(Packet* pkt, Handler*)"
+                                replace</li><br>
+                        </ul>
+                    </ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    app_-&gt;process_data(pkt-&gt;datalen(),
+                    pkt-&gt;userdata())&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    by<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    app_-&gt;process_rap_data(hdr-&gt;seqno(), pkt-&gt;userdata())<br><br><br>
+                    <ul>
+                        <ul>
+                            <li>In "void RapAgent::IpgTimeout()" after "if (app_)
+                                {" replace</li><br>
+                        </ul>
+                    </ul>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AppData* data =
+                    app_-&gt;get_data(nbytes) by <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    AppData* data = app_-&gt;get_prime_data(nbytes,this-&gt;daddr())<span style="text-decoration: underline;"><span style="font-weight:
+                        bold;"><br><br><br>
+                    </span></span>
+                    <ul>
+                        <li> <span style="font-style: italic; font-weight: bold;"> Makefile:</span></li>
+                        <ul>
+                            <li>Add the location of binary of RPRIME.o and SPRIME.o
+                                under OBJ_CC section.<br>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ol style="font-weight: bold;">
+                        <big> </big>
+                        <ol style="font-weight: bold;">
+                        </ol>
+                        <big> </big>
+                    </ol>
+                </div></div>
+    </body>
+</html>

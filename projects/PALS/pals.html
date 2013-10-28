@@ -1,0 +1,242 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div style="font-weight: bold; margin-left: 30px; text-align:
+                left;" class="header"><br>
+                <big>     <big><big><span style="color: rgb(153, 51,
+                    0);"><br>PALS: Adaptive Receiver-Driven Streaming from Multiple
+                    Senders </span><br><br>
+                </big></big> </big></div><div style="font-weight: bold; margin-left: 40px;" class="header">
+                    <ul>
+                        <li><b><a href="#Overview">Overview</a></b><br>
+                        </li><li><b><a href="#Projects">Projects</a></b><br>
+                            <ul><li><b><a href="#boc">Bandwidth-Aware Overlay Construction </a></b><br>
+                            </li><li> <a href="#mss">Adaptive Multi-Source Streaming</a></li>
+                                <li> <a href="#dmc">Distributed Multimedia Caching</a></li>
+                            </ul>
+                        </li><li><b><a href="#Paper">Papers &amp; Presentations</a></b></li>
+                        <li><b><a href="#People">People</a></b><br>
+                        </li></ul>
+                    <br>
+                </div>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Overview"></a>Overview</big></span><br>
+                <hr style="width: 100%; height: 2px;"><br></div>
+            <div style="text-align: left; margin-left: 40px;">
+                Audio/video streaming applications are becoming increasingly popular
+                over Peer-to-Peer
+                (P2P) networks. Supporting streaming applications over P2P networks is
+                challenging for
+                several reasons including: 1) heterogeneous and asymmetric bandwidth
+                connectivity among participating
+                peers, and 2) lack of support for QoS over today's Internet.
+                In this project, we design and develop a comprehensive framework to
+                support
+                streaming application over P2P networks, called P2P Adaptive Layered
+                Streaming
+                (PALS), that can achieve the above design goals. PALS is
+                receiver-driven, it
+                allows each receiver to independently determine "how to join a session"
+                and "how to deliver the desired stream" from other peers in the
+                session.
+                PALS can support a spectrum of non-interactive streaming application
+                ranging
+                from (lecture-mode) live to playback session.
+                <br>
+                <br>
+                <br>
+                <big style="font-weight: bold;" class="header;"><span style="color:
+                    rgb(123, 0, 0);"><a name="Projects"></a>
+                    Projects:</span></big><br>
+                <span style="font-weight: bold;"></span>
+                <hr style="width: 100%; height: 2px;">
+                <span style="font-weight: bold;"><br>
+                </span>
+                <div style="font-weight: bold;" class="second_header">
+                    <a name="boc"></a> Bandwidth-Aware Overlay Construction Mechanism</div><p>
+                A common approach to content delivery in
+                P2P networks is to form an
+                overlay.
+                Most of the existing solution s adopted some variants of
+                application-level multicast,
+                where peers form a single (or multiple), topologically-aware (or
+                delay-aware)
+                tree structure(s) to cooperatively distribute a content. These
+                solutions accommodate scalability by minimizing network load across
+                the tree. However, they are unable to maximize delivered quality to
+                individual peers because of the inherent limitation of delivered
+                bandwidth through a tree-structure overlay of
+                peers with heterogeneous and asymmetric bandwidth. Extending these
+                solutions to multiple
+                tree does not address this fundamental limitation either.</p>
+                <p>PALS abandons this approach and tackles this problem
+                from a new angle.
+                In PALS each peer is allowed to connect to the overlay at multiple
+                points
+                (or receive content from multiple other peers). More importantly,
+                each peer independently learns about other peers in the
+                overlay, selfishly determines the best way to connect to the overlay in
+                order to
+                maximize its own quality, and dynamically adjusts its connections to
+                the overlay as network or overlay condition change. Therefore,
+                competing peers form an unstructured, bandwidth-aware overlay that
+                maximize delivered quality to each peer. Furthermore, such an overlay
+                can gracefully
+                accommodate dynamics of peer participation.
+                We are currently developing this overlay
+                construction strategy, and will post further details in a near future. </p>
+            </div>
+            <div style="font-weight: bold; margin-left: 40px;" class="second_header"><a name="mss"></a><br>
+                Adaptive Multi-Source Streaming</div><p>
+            </p><div style="margin-left: 40px;">One key issue is to
+                simultaneously stream
+                a single video/audio content
+                from multiple senders.
+                This is challenging because all the pair-wise connections between peers
+                must be congestion
+                controlled, and thus the available bandwidth from each sender has
+                potentially wide
+                variations during delivery. This implies that the delivery mechanism
+                should be quality
+                adaptive. To accommodate bandwidth heterogeneity, we assume that
+                content has layered structure
+                (e.g. either layer or multiple description encoded streams). </div><p></p>
+            <p style="margin-left: 40px;">Existing solutions for
+            multi-sender delivery are unable
+            to accommodate streaming from
+            multiple congestion control senders. These solutions either ignore the
+            need for congestion
+            control, or assume that available bandwidth is sufficient to deliver
+            maximum quality
+            stream. Note that the commonly suggested, static approach of delivering
+            a single layer from each sender is not able to cope with bandwidth
+            variation, nor able to use the available
+            bandwidth from heterogeneous sender peers, efficiently. For example, if
+            a sender peer can provide half a layer, or two layers, this approach
+            can not
+            use the available bandwidth properly. </p>
+            <p style="margin-left: 40px;">We develop a novel
+            receiver-driven coordination
+            mechanism for multi-sender streaming
+            where a receiver directly orchestrates what segments of the stream
+            should be delivered
+            by each sender. This approach can not only utilize available bandwidth
+            from each sender,
+            but also dynamically adapt delivered quality based on aggregate
+            bandwidth from all senders.
+            We are currently developing and testing this coordination mechanism and
+            will post our scheme in a near future.&nbsp;&nbsp; &nbsp;<br>
+            </p>
+            <div style="font-weight: bold; margin-left: 40px;" class="second_header"> <a name="dmc"> </a><br>
+                Distributed Multimedia Caching</div>
+            <div style="margin-left: 40px;"> <p>To seamlessly support
+                asynchronous peers
+                who join a session with
+                different delays,
+                PALS incorporates a distributed caching mechanism. Each peer
+                contributes an arbitrary amount of cache space, and the collection of
+                all participating peers form a distributed
+                and heterogeneous cache space. Each stream should be partially cached
+                at different peers
+                in order to enable multi-sender delivery while achieving high caching
+                efficiency for the distributed cache space. The key challenge is how to
+                manage this distributed cache
+                space efficiently in order to maximize both delivered quality to
+                asynchronous clients and
+                efficiency of distributed cache space. </p></div><p></p>
+            <p style="margin-left: 40px;">Existing caching mechanisms
+            for multimedia streams are
+            unable to accommodate this
+            distributed environment. These solution try to maximize performance of
+            a single
+            (proxy) cache, rather than a distributed cache space.
+            We are developing a scalable, distributed caching mechanism that
+            dynamically adjusts partially cached content at each peer based on its
+            locally observed popularity.
+            <br>
+            <br>
+            </p>
+            <big style="font-weight: bold;" class="header;"><span style="color:
+                rgb(123, 0, 0); margin-left: 40px;"><a name="Paper"></a>Papers &amp;
+                Presentations:</span></big><br>
+            <hr style="margin-left: 40px; width: 100%; height: 2px;">
+            <br>
+            <span style="font-size: 14pt; font-family: Verdana;"><o:p></o:p></span>
+            
+            <ul style="margin-left: 40px;">
+                <li><b><a href="../../pub/nossdav04.pdf"> A
+                    Framework for Architecting Peer-to-Peer Receiver-driven Overlays</a></b><b><o:p><span class="MsoNormal"><br>
+                    </span></o:p></b><span style="font-weight: normal;">Reza
+                        Rejaie, Shad Stafford</span><o:p style="font-weight: normal;"><span class="MsoNormal"><span class="SpellE"></span><br>
+                        </span></o:p><i style="font-weight: normal;">Proceedings
+                            of the <a href="http://www.nossdav.org/2004/"> International Workshop
+                                on Network
+                                and Operating Systems Support for Digital Audio and Video</a>, Cork,
+                            Ireland, June 2004</i></li>
+                <li><b><a href="../../pub/amj05-pals.pdf">Adaptive Receiver-Driven Streaming from Multiple Senders</a></b> <br>
+                    <span style="font-weight: normal;">
+                        Nazanin Magharei, Reza Rejaie </span><o:p style="font-weight:
+                            normal;"><span class="MsoNormal"><span class="SpellE"></span><br>
+                            </span></o:p><i style="font-weight: normal;">To appear in the proceedings of ACM Multimedia Systems
+                                Journal, 2006 </i></li>
+                <li><b><a href="../../pub/mmcn05.pdf">Quality Adaptive Layered Streaming in Heterogeneous Peer-to-Peer Networks
+                </a></b><br>
+                    <span style="font-weight: normal;"> Vikash Agarwal, Reza Rejaie
+                    </span><o:p style="font-weight:
+                        normal;"><span class="MsoNormal"><span class="SpellE"></span><br>
+                        </span></o:p><i style="font-weight: normal;"> Proceedings of the <a href="http://mmcn05.cse.nd.edu/">SPIE/ACM Multimedia Computing and Networking</a>
+                            
+                            <br>San Jose, CA, January 2005 </i></li>
+                <li><b> <a href="../../pub/nossdav03.pdf"> PALS: Peer-to-Peer Adaptive Layered Streaming</a></b><br>
+                    <span style="font-weight: normal;">
+                        Reza Rejaie, Antonio Ortega </span><o:p style="font-weight:
+                            normal;"><span class="MsoNormal"><span class="SpellE"></span><br>
+                            </span></o:p><i style="font-weight:
+                                normal;">Proceedings of the <a href="http://www.nossdav.org/2003/"> International Workshop on Network
+                                    and Operating Systems Support for Digital Audio and
+                                    Video</a><br>
+                                Monterey, California, June 2003 </i></li>
+            </ul>
+            
+            
+            <br>
+            <div style="font-weight: bold;" class="second_header">
+                <big style="font-weight: bold;" class="header;"><span style="color: 
+                    rgb(123, 0, 0); margin-left: 40px;"><a name="People"></a>People:</span></big><br> 
+                <hr style="margin-left: 40px;
+                width: 100%; height: 2px;">
+                <br> 
+                <ul style="margin-left: 40px;" type="disc">
+                    <i> </i><li class="MsoNormal" style=""><span style=""><i>&nbsp;</i></span><span class="SpellE"><i> <span style="font-weight: normal;">Amir&nbsp; R.
+                        Ekbatani</span></i></span><i><span class="SpellE"></span></i></li>
+                    <li><span style=""><i>&nbsp;</i></span><span class="SpellE"><i><a href="http://www.cs.uoregon.edu/%7Enazanin">
+                        Nazanin Magharei</a></i></span></li>
+                </ul>
+            </div>
+            
+            <br>
+            <div style="margin-left: 40px;">
+                <p class="MsoNormal" style=""><i><b><span style="font-size: 14pt; font-family: Verdana;">Acknowledgment and
+                    Disclaimer</span></b></i> </p>
+            </div>
+            <hr style="margin-left: 40px;" class="line">
+            <div style="margin-left: 40px;"><i>This material is based
+                upon work
+                supported by the
+                National Science Foundation under Grant No. 0448639.
+                Any opinions, findings, and conclusions or recommendations expressed in
+                this material are those of the author(s) and do not necessarily reflect
+                the views of the National Science Foundation. </i></div>
+    </body>
+</html>

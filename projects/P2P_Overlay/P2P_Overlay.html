@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+			<div style="font-weight: bold; margin-left: 30px; text-align: left;" class="header"><br>
+					<big> <big><big><span style="color: rgb(153, 51, 0);"><br>
+						P2P Overlay and the AS-level Underlay</span><br>
+						<br>
+					</big></big> </big>
+			</div>
+            <div style="font-weight: bold; margin-left: 40px;" class="header">
+                <ul>
+                    <li><b><a href="#Overview">Overview</a></b><br>
+                    </li>
+                    <li><b><a href="#Publications">Publications</a></b><br>
+                    </li>
+                    <li><b><a href="#People">People</a></b><br>
+                    </li>
+                    <li><b><a href="#Links">Links</a></b><br>
+                    </li>
+                </ul>
+            </div>
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);"> <big> <a name="Overview"></a>Overview</big></span><br>
+                <hr style="width: 100%; height: 2px;"><br>
+            </div>
+            <div style="margin-left: 40px;"><b>
+                <img alt="Overlay-Underlay" src="ovl-udl-bold.png" style="border: 0px solid ; width: 350px; height: 286px;" align="right"></b>
+                In this project we target the problem of characterizing and assessing the
+                global impact of&nbsp; the load imposed by a Peer-to-Peer (P2P) overlay
+                on the AS-level underlay. Toward this end, we use best practices in the
+                research community to capture snapshots of both overlay and underlay.
+                We use fast crawling techniques to capture the P2P overlay topology and
+                obtain the annotated AS-level topology of the Internet from CAIDA.
+                Using BGP simulation over the AS-level topology, we infer all AS-level
+                paths between edge ASes (those hosting P2P clients). Next, using a
+                simple overlay traffic model, we associate traffic to each overlay
+                connection and using the inferred AS-level paths, we map the overlay
+                traffic to the underlay.<br>
+                <br>
+                Some questions that we try to answer in this project are the following:<br>
+                <ul>
+                    <li>What is the distribution of load among the ASes?</li>
+                    <li>Which ASes carry the highest load?</li>
+                    <li>Is the underlay load pattern mostly a factor of the
+                        underlay structure or the overlay structure and load patterns?</li>
+                    <li>To what extent does the load diffuse to the core of
+                        the Internet?</li>
+                    <li>How has the load pattern changed over the past years?</li>
+                </ul>
+                <p><br>
+                <big style="font-weight: bold;" class="header;"><span style="color: rgb(123, 0, 0);"><a name="Publications"></a>Publications:</span></big> </p>
+                <hr style="width: 100%; height: 2px;"> <br>
+                <ul>
+                    <table cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <li><br>
+                                    </li>
+                                    <br>
+                                </td>
+                                
+                                <td>
+                                    <div class="heading"><b>
+                                        Characterizing the Global Impact of P2P Overlays on the AS-Level Underlay
+                                    </b></div>
+                                </td>
+                                <td valign="center"><img src="Acrobat.gif" height="26" width="30"></td>
+                                <td valign="center"><a href="../../pub/rasti-pam-10.pdf"><u>PDF</u></a></td>
+                                <td>&nbsp;&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    Amir H. Rasti, Reza Rejaie, Walter Willinger<br>
+                    Accepted to <a href="http://www.pam2010.ethz.ch/">
+                        <i>Passive &amp; Active Measurement Conference</i></a>,
+                    Zurich, Switzerland, April 2010
+                    <br>
+                    
+                    <table cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <li><br>
+                                    </li>
+                                    <br>
+                                </td>
+                                <td>
+                                    <div class="heading"><b>Understanding the Effect of P2P Overlay On the AS-Level Underlay&nbsp;&nbsp;</b></div>
+                                </td>
+                                <td valign="center"><img src="Acrobat.gif" height="26" width="30"></td>
+                                <td valign="center"><a href="../../pub/conext-2007-paper.pdf"><u>Paper</u></a>
+                                </td>
+                                <td>&nbsp;&nbsp;</td>
+                                <td><img src="Acrobat.gif" height="26" width="30"></td>
+                                <td><a href="../../pub/conext-2007-poster.pdf"><u>Poster</u></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    Amir H. Rasti, Reza Rejaie, Walter Willinger<br>
+                    In Proceedings of <a href="http://edas.info/W5371">
+                        <i>ACM International Conference on emerging Networking
+                            EXperiments and Technologies (ACM CoNEXT)</i></a>, Student Workshop, Columbia University, New York, NY, December 2007
+                    <br>
+                </ul>
+                <br>
+                <p class="MsoNormal" style=""><big style="font-weight: bold;"><span style="color: rgb(123, 0, 0);" class="header;"><a name="People"></a>People:</span></big></p>
+                <hr style="width: 100%; height: 2px;"><br>
+                <ul>
+                    <li><a href="http://www.cs.uoregon.edu/~amir"><i>Amir H. Rasti</i></a></li>
+                    <li><a href="http://www.cs.uoregon.edu/~reza"><i>Reza Rejaie</i></a></li>
+                    <li><a href="http://www.research.att.com/people/Willinger_Walter/index.html" <i="">Walter Willinger</a></li>
+                </ul>
+                
+                <p class="MsoNormal" style=""><big style="font-weight: bold;"><span style="color: rgb(123, 0, 0);" class="header;">
+                    <a name="Links"></a>Links:</span></big></p>
+                <hr style="width: 100%; height: 2px;"><br>
+                <ul>
+                    <li><a href="http://cbgp.info.ucl.ac.be/">C-BGP</a></li>
+                    <li><a href="http://www.routeviews.org">RouteViews</a></li>
+                    <li><a href="http://www.caida.org/data/active/as-relationships/index.xml">
+                        CAIDA's AS Relationships</a></li>
+                </ul>
+                
+                <p class="MsoNormal" style=""><i><b><span style="font-size: 14pt; font-family: Verdana;">Acknowledgment and Disclaimer<o:p></o:p></span></b> </i></p>
+                <hr style="width: 100%; height: 2px;">
+                <span style="font-style: italic;">This material is based upon work supported
+                    in part by the National Science Foundation (NSF) under Grant No. Nets-NBD-0627202 and an
+                    unrestricted gift from Cisco Systems. Any opinions, findings, and conclusions or 
+                    recommendations expressed in this material are those of the authors and do not 
+                    necessarily reflect the views of the NSF or Cisco.</span>
+            </div>
+	</body>
+</html>

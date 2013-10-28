@@ -1,0 +1,79 @@
+<resources>
+    <section>
+        <section_title>Useful Pointers for PhD Students</section_title>
+        <link>
+            <title>How to make a presentation</title>
+            <url>http://www-2.cs.cmu.edu/%7Emihaib/presentation-rules.html</url>
+        </link>
+        
+        <link>
+            <title>Mark Leone's Advice on Research and Writing</title>
+            <url>http://www-2.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html</url>
+        </link>
+        
+        <link>
+            <title>Henning Schulzrinne Writing Technical Articles</title>
+            <url>http://www.cs.columbia.edu/%7Ehgs/etc/writing-style.html</url>
+        </link>
+        
+        <link>
+            <title>Hamming's "You and Your Research" talk</title>
+            <url>http://zapata.seas.smu.edu/%7Egorsak/hamming.html</url>
+        </link>
+        
+        <link>
+            <title>Common bugs in writing</title>
+            <url>http://www.cs.columbia.edu/~hgs/etc/writing-bugs.html</url>
+        </link>
+        
+        <link>
+            <title>http://www-inst.eecs.berkeley.edu/%7Ecs268/sp03/newell.txt</title>
+            <url>http://www-inst.eecs.berkeley.edu/%7Ecs268/sp03/newell.txt</url>
+        </link>
+        
+        <link>
+            <title>Patterson's "How to Have a Bad Career in Research/Academia" talk</title>
+            <url>http://www.cs.berkeley.edu/%7Epattrsn/talks/nontech.html</url>
+        </link>
+        
+        <link>
+            <title>How to give a short talk</title>
+            <url>http://www.cs.cornell.edu/cv/ShortTalk.htm</url>
+        </link>
+        
+        <link>
+            <title>Screen presentation tools</title>
+            <url>http://www.miwie.org/presentations/presentations.html</url>
+        </link>
+        
+        <link>
+            <title>UO Computing Center Statistics Consulting</title>
+            <url>http://cc.uoregon.edu/acaduser/statistics.html</url>
+        </link>
+        
+        <link>
+            <title>How to Be a Good Graduate Student</title>
+            <url>http://info.acm.org/crossroads/xrds1-2/advice1.html</url>
+        </link>
+        
+        <link>
+            <title>Some informal comments from Berkeley EECS students.</title>
+            <url>http://www-inst.eecs.berkeley.edu/%7Ewicse/advice.html</url>
+        </link>
+        
+        <link>
+            <title>The following might also be useful: &lt;a href='http://mirage.cs.uoregon.edu/ftp%0A://ftp.unt.edu/ian/guides/speaker/speaker.ps'&gt;How to Present a Paper in Theoretical Computer Science: A Speaker's Guide for Graduate Students&lt;a&gt; by Ian Parberry.</title>
+            <url></url>
+        </link>
+    </section>
+    <section>
+        <section_title>Papers, Reviews, Biblography</section_title>
+        <link>
+            <title>PaperQ</title>
+            <url>../paperq/search.cgi</url>
+        </link>
+    </section>
+    <section>
+        <section_title>Download</section_title>
+    </section>
+</resources>

@@ -1,0 +1,181 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div style="margin-left: 40px;" class="body_content">
+                <div class="header"><big><span style="font-weight: bold;"><big><br>
+                </big></span></big>
+                    <div class="body_content">
+                        <div style="font-weight: bold;" class="header">
+                            <div class="header"><big> Multimedia Proxy Caching</big></div>
+                            <hr class="line"><span style="font-weight: normal;">Any
+                                client-server (i.e. end-to-end) architecture for unicast multimedia
+                                streaming over the Internet is likely to suffer from the following
+                                limitations:<br>
+                                <br>
+                            </span>
+                            <ul>
+                                <li>Limited Quality:<span style="font-weight: normal;">
+                                    Streaming applications </span><i style="font-weight: normal;">pipeline</i><span style="font-weight: normal;"> data from the server to the client. Thus
+                                        quality of delivered streams to a
+                                        client is limited by the bottleneck bandwidth along the path to the
+                                        server. Thus even a client with a high bandwidth connectivity to the
+                                        network may receive a low-quality stream because of a remote bottleneck.</span></li>
+                                <li><b>Limited Scalability:</b> <span style="font-weight: normal;">Delivery of high quality multimedia
+                                    streams
+                                    in a client-server fashion imposes a heavy load on the server and the
+                                    network,
+                                    and could potentially last for a long period of time. Thus the
+                                    client-server
+                                    architecture for Internet streaming can not easily scale up to a large
+                                    number
+                                    clients. Furthermore, supporting asynchronous access to the same stream
+                                    could
+                                    be very inefficient.</span></li>
+                                <li><b>Limited Level of Interactivity:</b> <span style="font-weight: normal;">Because of a potentially long RTT
+                                    of the client-server path, the client can not low-latency perform
+                                    VCR-functions. Furthermore, clients are likely to experience long
+                                    startup
+                                    latency.</span> </li>
+                            </ul>
+                            <span style="font-weight: normal;">To overcome these
+                                limitations, multimedia content should be close to
+                                interested clients. There are two potential solutions to this problem,<br>
+                                <br style="font-weight: normal;">
+                            </span>
+                            <ul>
+                                <li><span style="font-weight: normal;"><span style="font-weight: bold;">Replication</span> where content of a
+                                    single server is statically
+                                    replicated on a number of distributed mirror servers that are typically
+                                    administrated by the corresponding content provider (i.e. owner of the
+                                    original server).</span></li>
+                            </ul>
+                            <ul style="font-weight: normal;">
+                                <li><span style="font-weight: bold;">Multimedia Proxy
+                                    Caching(MCaching)</span> where a small proxy server
+                                    cache that is located close to a group of clients (e.g. a campus) and
+                                    is administrated by them, caches some popular streams from different
+                                    servers with appropriate quality.</li>
+                            </ul>
+                            <p style="font-weight: normal;">Replication can improve
+                            scalability and delivered quality only for the replicated content and
+                            those clients that reside close to a mirror server.
+                            However, in the presence of "locality of reference" among requested
+                            streams
+                            by a group of clients, a local multimedia proxy cache can effectively
+                            reduce load on the network/server by caching popular streams with <i>
+                                appropriate
+                                quality</i> and replaying the streams from the cache upon subsequent
+                            requests.
+                            Similar to Web caching, MCaching can accommodate scalability.
+                            Furthermore, MCaching can maximize delivered quality
+                            to its associated clients and allows them to perform VCR-functions more
+                            interactively.
+                            Multimedia objects are several orders of magnitude larger than typical
+                            Web objects. To achieve high performance, it is crucial to limit the
+                            quality
+                            (and thus the size) of the cached streams to the level that can be
+                            pipelined to interested
+                            clients. e.g. if clients have only 1 Mbps bandwidth, there is no
+                            benefit
+                            in caching a 5 Mbps version of a popular stream among these clients. By
+                            adjusting quality of cached stream, the proxy can caches more streams
+                            and improves its performance with minimum degradation of delivered
+                            quality. </p>
+                            <p><span style="font-weight: normal;">Notion of </span><i style="font-weight: normal;">quality of cached streams</i><span style="font-weight: normal;"> adds a new dimension to MCaching
+                                that does not exist in Web Caching. As a result, both design and
+                                evaluations
+                                of MCaching are more interesting than traditional Web caching. To
+                                design an efficient
+                                MCaching scheme requires two key mechanisms:<br>
+                            </span></p>
+                            <ul style="font-weight: normal;">
+                                <li><span style="font-weight: bold;">Fine-grained
+                                    Prefetching:</span> to adaptively prefetch high
+                                    resolution bits and improve quality of cached streams on a
+                                    demand-driven
+                                    fashion.</li>
+                                <li> <span style="font-weight: bold;">Fine-grained
+                                    Replacement:</span> to avoid fragmentation of cache
+                                    space and gradually decrease quality of cached streams as they become
+                                    unpopular. </li>
+                            </ul>
+                            <span style="font-weight: normal;">These requirements
+                                reveal that existing Web caching schemes can not
+                                perform MCaching efficiently due to their atomic nature of delivery and
+                                replacement.
+                                Currently, we are developing an MCaching mechanism on top of Squid
+                                by leveraging layered organization of data in hierarchically encoded
+                                streams. MCaching perfectly complements our </span><a style="font-weight: normal;" href="http://netweb.usc.edy/reza/e2e-arch.html/">
+                                    end-to-end architecture</a><span style="font-weight: normal;">
+                                        for delivery of quality adaptative, layered-encoded streams over
+                                        the Internet.</span></div>
+                    </div>
+                </div>
+            </div>
+            <div style="font-weight: bold;" class="body_content">
+                <div class="header">
+                    <div class="body_content">
+                        <div class="second_header">
+                            <div class="body_content">
+                                <div style="font-style: italic;" class="second_header">
+                                    <ol type="i">
+                                        <span style="font-size: 14pt; font-family: Verdana;"><span style="font-style: italic;">Papers
+                                            &amp;
+                                            Presentations</span><o:p></o:p></span><span style="font-size: 14pt; font-family: Verdana;"><o:p></o:p></span>
+                                    </ol>
+                                    <ul style="margin-left: 40px;">
+                                        <li><a href="http://www.cs.uoregon.edu/%7Ereza/PUB/tba"><b>
+                                        </b></a><b><a href="../../pub/mc-eval.ps">Proxy Caching
+                                            for Quality Adaptive Multimedia Streams in the Internet: A Performance
+                                            Perspective</a></b><o:p><span class="MsoNormal"><br>
+                                            </span></o:p><span style="font-weight: normal;"> Reza
+                                                Rejaie, Haobo Yu </span><br style="font-weight: normal;">
+                                                <i style="font-weight: normal;"> Technical Report,
+                                                    January 2000</i><span style="font-weight: normal;"> <br>
+                                                    </span></li>
+                                    </ul>
+                                    <span style="font-weight: normal;"></span><span style="font-weight: normal;"></span>
+                                    <ul style="margin-left: 40px;">
+                                        <li><b> <a href="http://netweb.usc.edu/reza/papers/infocom00.ps">Multimedia Proxy
+                                            Caching Mechanism for Quality Adaptive Streaming Applications in the
+                                            Internet</a></b> <br>
+                                            <span style="font-weight: normal;">Reza Rejaie, Haobo
+                                                Yu, Mark Handely, Deborah Estrin </span><br style="font-weight: normal;">
+                                            <i style="font-weight: normal;"> Proceedings of <a href="http://www.cse.ucsc.edu/%7Erom/infocom2000/">IEEE
+                                                Infocom'2000</a>, Tel-Aviv, Israel, March 2000.</i></li>
+                                    </ul>
+                                    <ul style="margin-left: 40px;">
+                                        <li><b> <a href="http://netweb.usc.edu/reza/papers/mc.ps">Proxy
+                                            Caching Mechanism for Multimedia Playback Streams in the Internet</a></b>
+                                            <br>
+                                            <span style="font-weight: normal;"> Reza Rejaie, Mark
+                                                Handley, Haobo Yu, Deborah Estrin </span><br style="font-weight: normal;">
+                                            <i style="font-weight: normal;"> Proceedings of <a href="http://www.ircache.net/Cache/Workshop99/"> the
+                                                4th International Web Caching Workshop</a></i><span style="font-weight: normal;">
+                                                    , San Diego, CA., March 1999.</span></li>
+                                    </ul>
+                                    <span style="font-weight: normal;"></span>
+                                    <ul style="margin-left: 40px;">
+                                        <li><b> <a href="http://netweb.usc.edu/reza/Thesis/ch6.ps">Multimedia Proxy
+                                            Caching</a></b> <br>
+                                            <span style="font-weight: normal;"> Reza Rejaie </span><br style="font-weight: normal;">
+                                            <i style="font-weight: normal;"> Chapter 6, Doctoral
+                                                Thesis</i><span style="font-weight: normal;">, University of Southern
+                                                    California, September 1999</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

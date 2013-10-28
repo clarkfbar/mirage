@@ -1,0 +1,1 @@
+The netword_small folder is used to store the smaller version to be shown on the front page, and the network folder is used to store the images which the smaller images will link to.

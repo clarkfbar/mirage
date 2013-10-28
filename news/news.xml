@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<head>
+    <number_of_month>36</number_of_month>
+	<news>
+		<year>2011</year>
+		<month>1</month>
+		<day>1</day>
+        <title>Recent Collaborative CoNext paper has been highlighted</title>
+		<content>January 2011, Our recent collaborative CoNext paper on the characterization of content publishers in major BiTTorrent portals has been highlighted in an online article.</content>
+	</news>
+	<news>
+		<year>2010</year>
+		<month>9</month>
+		<day>1</day>
+        <title>Welcome Kaveh Kazemi and Reza Notamedi</title>
+		<content>September 2010, Kaveh Kazemi and Reza Motamedi joined the Mirage group. Kaveh received his BS and Reza completed his MS at Sharif University of Technology.</content>
+	</news>
+	<news>
+		<year>2010</year>
+		<month>4</month>
+		<day>1</day>
+        <title>Two Phd Students Received Scholarship</title>
+		<content>April 2010,Two Phd students in our lab received scholarship from the college of Art and Science, Ghulam Memon and Mojtaba Torkjazi recevied Dunbar and Howe scholarship, respectively.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>11</month>
+		<day>1</day>
+        <title>One article was cited</title>
+		<content>November 2009, Our article in "Sampling P2P Networks" was cited in a major blog.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>11</month>
+		<day>1</day>
+        <title>Reza's Collaborative Work Were Highlighted</title>
+		<content>Reza's collaborative work on characterizing content publishers in major BitTorrent portals were highlighted in an article</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>9</month>
+		<day>1</day>
+        <title>A Three Year Grant from the division of Informaton and Intelligent Systems</title>
+		<content>September 2009, we received a three year grant for the amount of $350K from the division of Information and Intelligent Systems at NSF in support of our research on "Multi-Resolution Analysis and Measurement of Large-scale, Dynamic Networked Systems with Applications to Online Social Networks".</content>
+	</news>
+    <news>
+		<year>2009</year>
+		<month>9</month>
+		<day>12</day>
+        <title>Reza is at IMDEA Networks</title>
+		<content>September 2009, Reza is spending his sabbatical (September '09 - August '10) at IMDEA Networks, Madrid, Spain. His visit is supported by a European Union Marie Curie Fellowship under the AMAROUT Europe Programme</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>8</month>
+		<day>1</day>
+        <title>Jimmy Hastings passed his undergraduate honors college thesis</title>
+		<content>August 2009, Jimmy Hastings passed his undergraduate honors college thesis "with honors".</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>6</month>
+		<day>1</day>
+        <title>Ghulam Memon Received the Julif's Scholarship Award</title>
+		<content>June 2009, Ghulam Memon received the Julif's Scholarship Award from the CIS department.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>6</month>
+		<day>1</day>
+        <title>Mojtaba Torkjazi received the best GTF award.</title>
+		<content>June 2009, Mojtaba Torkjazi was received the best GTF award from the CIS department.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>6</month>
+		<day>1</day>
+        <title>Amir Rasti passed his oral comprehensive exam.</title>
+		<content>June 2009, Amir Rasti passed his oral comprehensive exam.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>6</month>
+		<day>1</day>
+        <title>Mojtaba Torkjazi passed his DRP exam</title>
+		<content>June 2009, Mojtaba Torkjazi passed his DRP exam with distinction.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>4</month>
+		<day>1</day>
+        <title>Ghulam Memon received travel grant to attend Symposium on Networked Systems Design and Implementation</title>
+		<content>April 2009, Ghulam Memon received travel grant to attend &lt;a href=&apos;http://www.usenix.org/events/nsdi09/nsdi09.html&apos;&gt;Symposium on Networked Systems Design and Implementation 2009&lt;/a&gt; in Boston, MA.</content>
+	</news>
+	<news>
+		<year>2009</year>
+		<month>4</month>
+		<day>1</day>
+        <title>Nazanin Magharei received marthe E. Smith Memorial Science Fellowship.</title>
+		<content>April 2009, Nazanin Magharei received the 2009-2010 Marthe E. Smith Memorial Science Fellowship.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>7</month>
+		<day>1</day>
+        <title>Ghulam Memon passed DRP exam</title>
+		<content>July 2008, Ghulam Memon passed his DRP exam with distinction.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>6</month>
+		<day>1</day>
+        <title>Amir Rasti received the Julif's Scholarship Award</title>
+		<content>June 2008, Amir Rasti received the Julif's Scholarship Award from the CIS Department.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>6</month>
+		<day>1</day>
+        <title>Mojtaba Torkjazi and Masoud Valafar got the best GTF award</title>
+		<content>June 2008, Mojtaba Torkjazi and Masoud Valafar were nominated for the best GTF award in the CIS department, and were recognized as the first year GTFs with excellent performance in the commencement ceremony.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>5</month>
+		<day>1</day>
+        <title>Reza was promoted to Associate Professor with tenure</title>
+		<content>May 2008, Reza was promoted to Associate Professor with tenure.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>4</month>
+		<day>1</day>
+        <title>Nazanin Magharei received Henry V. Howe Scholarship</title>
+		<content>April 2008, Nazanin Magharei received the 2008-2009 Henry V. Howe Scholarship. She was also awarded the 2008-2009 Miller Family Graduate Award in Technology and Science.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>2</month>
+		<day>1</day>
+        <title>Nazanin Magharei is selected as the only nonminated student for UO Doctoral research Fellowship</title>
+		<content>February 2008, Nazanin Magharei is selected as the only nominated student for the UO Doctoral Research Fellowship by the CIS department.</content>
+	</news>
+	<news>
+		<year>2008</year>
+		<month>2</month>
+		<day>1</day>
+        <title>Nazanin Magharei passed her Oral Comprehensive Exam</title>
+		<content>February 2008, Nazanin Magharei passed her Oral Comprehensive Exam with Distinction. Congratulations Nazanin!</content>
+	</news>
+	<news>
+		<year>2007</year>
+		<month>11</month>
+		<day>1</day>
+        <title>Amir rasti received travel grant to attend the CoNext Conference</title>
+		<content>November 2007, Amir Rasti received travel grant to attend the CoNext Conference at Columbia University and present his work at the student workshop.</content>
+	</news>
+	<news>
+		<year>2007</year>
+		<month>9</month>
+		<day>1</day>
+        <title>mojtaba Torkjazi and Masoud Valafar joined Mirage group</title>
+		<content>September 2007, Mojtaba Torkjazi and Masoud Valafar joined Mirage group. Mojtaba and Masoud both have received their B.S. degree from Sharif University of Technology.</content>
+	</news>
+	<news>
+		<year>2007</year>
+		<month>9</month>
+		<day>1</day>
+        <title>Daniel Stutzbach's PhD dissertation has been nominated for the ACM dissertation Award</title>
+		<content>September 2007, Daniel Stutzbach's PhD dissertation has been nominated for the &lt;a href=&apos;http://awards.acm.org/html/dda.cfm&apos;&gt;ACM dissertation Award&lt;/a&gt; by the CIS department at UO.</content>
+	</news>
+	<news>
+		<year>2007</year>
+		<month>9</month>
+		<day>1</day>
+		<title>Amir Rasti passed his DRP exam.</title>
+		<content>December 2006, Amir Rasti passed his DRP exam.</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>11</month>
+		<day>1</day>
+		<title>Two submissions to IEEE INFOCOM 2006 have been accepted</title>
+		<content>November 2006, Our two submissions to &lt;a href=&apos;http://www.ieee-infocom.org/2007/&apos;&gt;IEEE INFOCOM 2006&lt;/a&gt; have been accepted for publications.</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>11</month>
+		<day>1</day>
+		<title>Daniel Stutzbach has become the first member of mirage group who has completed his PhD.</title>
+		<content>November 2006, Daniel Stutzbach has become the first member of the Mirage group who has completed his PhD. Congratulations Dr. Stutzbach!</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>10</month>
+		<day>1</day>
+		<title>Amir Rasti received travel grant to attend the 14th International Conference.</title>
+		<content>October 2006, Amir Rasti received travel grant to attend the 14th International Conference on Network Protocols in Santa Barbara, California.</content>
+	</news>
+	
+	<news>
+		<year>2006</year>
+		<month>10</month>
+		<day>1</day>
+		<title>Daniel Stutzbach received travel grant to attend Internet Measurement Conference</title>
+		<content>October 06, Daniel Stutzbach received travel grant to attend &lt;a href=&apos;http://www.imconf.net/imc-2006/&apos;Internet Measurement Conference 2006&lt;/a&gt; in Rio de Janeiro, Brazil.</content>
+	</news>
+	
+	<news>
+		<year>2006</year>
+		<month>9</month>
+		<day>1</day>
+		<title>Reza Rejaie has received a three-year grant for the amount of $300K from the networking program</title>
+		<content>September 2006, Reza Rejaie has received a three-year grant for the amount of $300K from the networking program (Nets-NBD) at NSF in support of his research on "Characterizing Large-Scale, Dynamic Peer-to-Peer Networks: New Sampling and Modeling Approaches" as part of &lt;a href=&apos;../projects/P2P&apos;&gt;IonP2P Project&lt;/a&gt;.&lt;ul&gt;&lt;li&gt;&lt;a href=&apos;http://duckhenge.uoregon.edu/io/article.php?id=794&apos;&gt;Inside Oregon's report on Reza's NSF grant for P2P measurement and characterizatio&lt;/li&gt;&lt;/ul&gt;</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>8</month>
+		<day>1</day>
+		<title>Two submissions to the SIGCOMM Internet Measuremtn Conference have been accepted</title>
+		<content>August 2006, Our two submissions to the SIGCOMM &lt;a href=&apos;http://www.imconf.net/imc-2006/&apos;&gt;Internet Measurement Conference&lt;/a&gt; (IMC) 2006 have been accepted.</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>6</month>
+		<day>1</day>
+		<title>Nazanin Magharei passed her DRP exam</title>
+		<content>June 2006, Nazanin Magharei passed her DRP exam with distinction.</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>6</month>
+		<day>1</day>
+		<title>Cisco Systems will fund our research as a part of the IonP2P Project</title>
+		<content>June 2006, Cisco Systems will fund our research on "Characterizing and Modeling the Dynamics of Peer-to-Peer Networks" as a part of the &lt;a href=&apos;../projects/P2P&apos;&gt;IonP2P Project&lt;/a&gt; - &lt;a href=&apos;http://duckhenge.uoregon.edu/io/article.php?id=757&apos;&gt;the article in Inside Oregon.&lt;/a&gt;</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>6</month>
+		<day>1</day>
+		<title>Nazanin Magharei received the julif's Scholarship Award</title>
+		<content>June 2006, Nazanin Magharei received the Julif's Scholarship Award from the CIS Department.</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>4</month>
+		<day>1</day>
+		<title>Daniel Stutzbach received travel grant to attend INFOCOM and present three papers from mirage group.</title>
+		<content>April 2006, Daniel Stutzbach received travel grant to attend INFOCOM'06 (and Global Internet'06) and present three papers from the Mirage group.</content>
+	</news>
+	<news>
+		<year>2006</year>
+		<month>4</month>
+		<day>1</day>
+		<title>Daniel Stutzbach won the Clarence and Lucille Dunbar Scholarship</title>
+		<content>April 2006, Daniel Stutzbach won the 2006--2007 &lt;a href=&apos;http://www.cs.uoregon.edu/news/20060501-Scholarships.php&apos;&gt;Clarence and Lucille Dunbar&lt;/a&gt; Scholarship which carries an award of $5000.</content>
+	</news>
+	<news>
+		<year>2005</year>
+		<month>10</month>
+		<day>1</day>
+		<title>Nazanin Magharei received travel grant to attend ICNP'05</title>
+		<content>October 2005, Nazanin Magharei received travel grant to attend ICNP'05.</content>
+	</news>
+	<news>
+		<year>2005</year>
+		<month>7</month>
+		<day>1</day>
+		<title>ISNA has published a piece on Reza's research on P2P streaming</title>
+		<content>July 2005, Iranian Students News Agency (ISNA) has published a piece on &lt;a href=&apos;http://www.isna.ir/Main/NewsView.aspx?ID=News-555276&apos;&gt;Reza's research on P2P streaming &lt;/a&gt;(in Farsi)</content>
+	</news>
+	<news>
+		<year>2005</year>
+		<month>6</month>
+		<day>1</day>
+		<title>Daniel Stutzbach received travel grant to attend SIGCOMM'05</title>
+		<content>June 2005, Daniel Stutzbach received travel grant to attend SIGCOMM'05.</content>
+	</news>
+	<news>
+		<year>2005</year>
+		<month>3</month>
+		<day>1</day>
+		<title>Mirage group was invited to the International Scholars Reception</title>
+		<content>March 2005, Mirage group was invited to the &lt;a href=&apos;http://duckhenge.uoregon.edu/io/article.php?id=187&apos;&gt;International Scholars Reception&lt;/a&gt; that showcased research at UO.</content>
+	</news>
+	<news>
+		<year>2005</year>
+		<month>1</month>
+		<day>1</day>
+		<title></title>
+		<content>January 2005, Reza Rejaie received an &lt;a href=&apos;http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0448639&apos;&gt;NSF Career Award&lt;/a&gt; for his research on P2P streaming.&lt;ul&gt;&lt;li&gt;&lt;a href=&apos;http://duckhenge.uoregon.edu/io/article.php?id=220&apos;&gt;Inside Oregon's report on Reza's career award&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content>
+	</news>
+	<news>
+		<year>2005</year>
+		<month>1</month>
+		<day>1</day>
+		<title>Nazanin Magharei and Amir Rasti have joined the Mirage group</title>
+		<content>January 2005, Nazanin Magharei and Amir Rasti have joined the Mirage group.</content>
+	</news>
+	<news>
+		<year>2004</year>
+		<month>10</month>
+		<day>1</day>
+		<title>Daniels Stutzbach's poster won the second prize in the Graduate Research Poster Contest</title>
+		<content>October 2004, Daniels Stutzbach's poster won the second prize in the Graduate Research Poster Contest.</content>
+	</news>
+	<news>
+		<year>2004</year>
+		<month>10</month>
+		<day>1</day>
+		<title>Reza Rejaie was selected by the UO as the only candidate from UO to applay for the Microsfot New Faculty Fellowship</title>
+		<content>October 2004, Reza Rejaie was selected by the University of Oregon as the only candidate from UO to apply for the Microsfot New Faculty Fellowship.</content>
+	</news>
+	<news>
+		<year>2004</year>
+		<month>9</month>
+		<day>1</day>
+		<title>Daniel Stutzbach received travel grant to attend ICNP'04</title>
+		<content>September 2004, Daniel Stutzbach received travel grant to attend ICNP'04.</content>
+	</news>
+	<news>
+		<year>2004</year>
+		<month>8</month>
+		<day>1</day>
+		<title>Daniel Stutzbach received travel grant to attend IMC'04.</title>
+		<content>August 2004, Daniel Stutzbach received travel grant to attend IMC'04.</content>
+	</news>
+	<news>
+		<year>2004</year>
+		<month>3</month>
+		<day>1</day>
+		<title>Shad Stafford received travel grant to attend NOSSDAV'04.</title>
+		<content>March 2004, Shad Stafford received travel grant to attend NOSSDAV'04.</content>
+	</news>
+</head>     

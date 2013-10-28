@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sponsors>
+	<sponsor>
+		<imageurl>sponsor/nsf.gif</imageurl>
+		<width>91</width>
+		<height>100</height>
+	</sponsor>
+	
+	<sponsor>
+		<imageurl>sponsor/cisco-logo.gif</imageurl>
+		<width>75</width>
+		<height>48</height>
+	</sponsor>
+	
+	<sponsor>
+		<imageurl>sponsor/Thomson_logo2.jpg</imageurl>
+		<width>120</width>
+		<height>57</height>
+	</sponsor>
+</sponsors>     

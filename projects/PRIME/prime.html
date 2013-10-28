@@ -1,0 +1,456 @@
+<html>
+	<head>
+		<style>
+			.custom_font{
+				FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				white-space: normal;
+				font-size: small;
+			}
+		</style>
+	</head>
+	<body class="custom_font">
+            <div style="font-weight: bold; margin-left: 30px; text-align: left;" class="header"><br>
+                <big>     <big><big><span style="color: rgb(153, 51, 0);"><br>PRIME:
+                    Mesh-based Peer-to-Peer Streaming</span><br><br>
+                </big></big> </big></div><div style="font-weight: bold; margin-left: 40px;" class="header">
+                    <ul>
+                        <li><b><a href="#Overview">Overview</a></b><br>
+                            
+                        </li><li><b><a href="#Projects">Projects</a></b><br>
+                            <ul>
+                                <li><b><a href="#Prime">PRIME :  Peer-to-Peer Receiver-drIven MEsh-based Streaming </a></b><br>
+                                    
+                                </li><li><b><a href="#Contribution">Contribution-Awareness in Mesh-based Peer-to-Peer Streaming Mechanisms</a></b><br>
+                                    
+                                </li><li><b><a href="#Mesh-Tree">Mesh or Multiple-Tree?</a></b><br>
+                                    
+                                </li><li><b><a href="#Residential">Evaluating Mesh-based P2P Streaming Protocol with Residential Users</a></b><br>
+                                </li><li><b><a href="#Scheduling">Dissecting the Performance of Live Mesh-based Peer-to-Peer Streaming</a></b><br>
+                                </li><li><b><a href="#omr">OMR: Overlay Monitoring and Repair in Swarm-based Peer-to-Peer Streaming</a></b><br>
+                                </li><li><b><a href="#isp">ISP-Friendly Swarm-based Peer-to-Peer Streaming</a></b><br>
+                                </li></ul>
+                        </li><li><b><a href="#Paper">Papers &amp; Presentations</a></b><br>
+                        </li><li><b><a href="#People">People</a></b><br>
+                        </li><li><b><a href="#Software">Software</a></b><br>
+                        </li><li><b><a href="#Relevant Projects">Relevant projects</a></b><br>
+                        </li></ul>
+                    
+                    <br>
+                </div>
+            
+            <div style="font-weight: bold; margin-left: 40px;" class="header;">
+                <span style="color: rgb(123, 0, 0);">
+                    <big>
+                        <a name="Overview"></a>Overview</big></span><br>
+                <hr style="width: 100%; height: 2px;"><br></div>
+            <div style="text-align: left; margin-left: 40px;">Peer-to-Peer
+                (P2P) streaming has become an increasing popular approach for
+                one-to-many multimedia streaming applications, mainly because it does
+                not require any special support (e.g. IP multicast or any content
+                distribution infrastructure) from the network.<span style="">&nbsp; </span>A
+                common theme in P2P streaming systems is that participating peers form
+                an overlay where each peer receives content from one (or multiple)
+                parent peer(s) in a session. <br>
+                Any P2P streaming system consists of two distinct but related
+                components:<br>
+                <br>
+            </div>
+            
+            <ul style="margin-left: 40px;">
+                <li><b>Overlay Construction <span style="">&nbsp;</span></b><span class="bodytextChar"><span>: A
+                    mechanism
+                    that organizes participating peers into an overlay structure with
+                    certain properties.</span></span></li>
+                <li><strong>Content Delivery</strong> : <span class="bodytextChar"><span>Determines
+                    how the multimedia content should be streamed to each participating
+                    peer through the overlay.</span></span></li>
+            </ul>
+            <div style="margin-left: 40px;">Goals of a live P2P streaming mechanism are maximizing
+                the delivered quality to individual peers in a scalable fashion while utilizing the contributed resources
+                (namely outgoing bandwidth) of all participating peers.
+                In order to design such a mechanism with those goals challenges are:<br>
+                <br>
+                
+                <ul>
+                    <li>&nbsp;&nbsp; accommodating the heterogeneity and
+                        asymmetry of access link bandwidth</li>
+                    <li>&nbsp;&nbsp; coping with dynamics in peer participation.</li>
+                </ul>
+                <span class="GramE"></span>A well known approach to P2P
+                streaming is to organize participating peers into multiple, diverse
+                tree-shaped overlays where each specific sub-stream of the live content
+                is <span style="font-style: italic;">pushed</span> through a
+                particular tree from source to all interested peers e.g. Coopnet.
+                This approach has the following potential limitations:<br>
+                <ol>
+                    <li>in the presence of churn, maintaining multiple
+                        diverse trees could be very challenging.</li>
+                    <li>the rate of content delivery to each peer through
+                        individual trees is limited by the minimum throughput among the
+                        upstream connections.</li>
+                    <li>the outgoing bandwidth of those peers that do not
+                        have a sufficient number of child peers or an adequate amount of new
+                        content can not be effectively utilized. This in turn limits the
+                        scalability of the tree-based approaches.<br>
+                    </li>
+                </ol>
+                <span style=""> </span>An alternative approach to P2P
+                streaming is <span style="font-style: italic;">mesh-based P2P streaming</span>.
+                In this approach participating peers form a mesh-shaped overlay and
+                incorporate <span style="font-style: italic;">swarming</span> (or
+                pull)
+                content delivery. File swarming mechanisms e.g. Bittorrent, leverage
+                the elastic nature and the availability of the entire file at the
+                source to distribute different pieces of a file among participating
+                peers, enabling them to actively contribute their outgoing bandwidth
+                through swarming.
+                However, incorporating swarming content delivery into mesh-based P2P
+                streaming mechanisms for ``live'' content is challenging for two
+                reasons:<br>
+                <ol>
+                    <li>Accommodating the streaming constraint of
+                        in-time delivery for individual packets is difficult, and</li>
+                    <li>Since the content is progressively generated by a
+                        live source, the limited availability of future content limits the
+                        diversity of available pieces among participating peers which in turn
+                        degrades the utilization of their outgoing bandwidth.<br>
+                    </li>
+                </ol>
+                <br>
+                <big style="font-weight: bold;" class="header;"><span style="color: rgb(123, 0, 0);"><a name="Projects"></a>Projects:</span></big><br>
+                <span style="font-weight: bold;"></span>
+                <hr style="width: 100%; height: 2px;">
+                <span style="font-weight: bold;"><br>
+                    
+                </span><b><span class="GramE"><a name="Prime">
+                </a> PRIME
+                    :&nbsp; Peer-to-Peer Receiver-drIven MEsh-based Streaming</span> </b>
+                <p>
+                The success
+                of swarming content delivery has motivated a new
+                approach to live Peer-to-Peer (P2P) streaming that we call
+                mesh-based streaming. In this approach, participating peers
+                form a random mesh and incorporate swarming content delivery to
+                stream live content.
+                Despite the growing popularity of this approach, neither the
+                design tradeoffs nor the basic performance bottlenecks
+                in mesh-based P2P streaming are well understood.
+                We designed PRIME, the first mesh-based P2P streaming
+                for live content that effectively incorporates swarming content
+                delivery. We identify two performance bottlenecks in
+                a mesh-based P2P streaming, namely <span style="font-style: italic;"><span style="font-weight: bold;">bandwidth bottleneck</span> </span>and <span style="font-style: italic; font-weight: bold;">content bottleneck</span>.
+                We derive proper peer connectivity
+                to minimize bandwidth bottleneck as well as an efficient pattern of
+                delivery for live content over a random mesh to minimize content
+                bottleneck.
+                We show that the pattern of delivery can be divided into
+                diffusion and swarming phases and then identify proper
+                packet scheduling algorithm at individual peers.
+                Using ns simulations, we examine key characteristics, design tradeoffs
+                and the relationship between main system parameters.<br>
+                </p>
+                <br>
+                <b><span class="GramE">
+                    <a name="Contribution">
+                    </a>
+                    Contribution-Awareness in Mesh-based Peer-to-Peer
+                    Streaming Mechanisms</span></b><p>
+                Peer-to-Peer streaming
+                overlays
+                consist
+                of peers with heterogeneous, asymmetric and limited bandwidth. A
+                reasonable approach to maximize the delivered quality to individual
+                peers in such an environment is to ensure that delivered quality to
+                each peer is proportional to its contribution. In essence the delivered quality in
+                a resource-constraint P2P streaming system should be contribution aware.
+                The contribution-aware paradigm not only promotes the fairness among
+                peers, but also serves as an effective means to encourage peers to
+                contribute. Incorporating contribution-awareness into P2P streaming is
+                challenging. In this project, the contribution awareness mechanism is
+                incorporated into a mesh-based P2P live streaming, and its
+                performance is extensively studied. Our mail goal is to deliver a
+                persistent quality to individual peers proportional to their
+                contribution while maximizing the utilization of the resources in the
+                system. Through extensive evaluation we show that the
+                contribution-awareness mechanism in a mesh-based
+                P2P streaming is achievable, i.e. peers received quality is
+                proportional to
+                their contribution while resources in the system is fully utilized.
+                </p>
+                <br>
+                <b><span class="GramE">
+                    <a name="Mesh-Tree">
+                    </a>Mesh or Multiple-Tree?
+                </span></b>
+                <p>
+                Existing approaches to P2P
+                streaming can be divided into two
+                general classes: (i) tree-based approaches use push-based content
+                delivery over
+                multiple tree-shaped overlays, and (ii) mesh-based approaches use
+                swarming content delivery over a
+                randomly connected mesh. Previous studies have often focused on a
+                particular P2P streaming mechanism and no comparison between these two
+                classes has been conducted.
+                In this project, we compare and contrast the performance of
+                representative protocols from each class using simulations.
+                We identify the similarities and differences between these two
+                approaches. Furthermore, we separately examine the behavior of content
+                delivery and overlay construction mechanisms for both approaches in
+                static and dynamic scenarios.
+                Our results indicate that the mesh-based approach consistently exhibits
+                a superior performance over the tree-based approach. We also show that
+                the main factors attributing in the inferior performance of the
+                tree-based approach are
+                (i) the static mapping of content to a particular tree, and (ii) the
+                placement of each peer as an internal node in one tree and as a leaf in
+                all other trees.
+                </p>
+                <br>
+                <b><span class="GramE">
+                    <a name="Residential">
+                    </a>
+                    Evaluating Mesh-based P2P Streaming Protocol with Residential Users
+                </span></b><p>
+                The behavior of Peer-to-Peer (P2P) streaming mechanism in sessions
+                where a large fraction of peers are residential peers have not been
+                examined.
+                Several characteristics of residential users could affect the behavior
+                of P2P streaming sessions including
+                (i) the heterogeneity of access link bandwidth, (ii) the limitation of
+                available resources due to asymmetric nature of access link bandwidth
+                (for DSL and cable modem), and (iii) the participation of free-loaders.
+                In this project, we examine the effect of these three characteristics
+                of residential users on the performance of P2P streaming mechanisms
+                using ns simulations. We show that these characteristics could
+                adversely affect the performance of P2P streaming mechanisms as
+                follows; First, the delivered quality to individual users is not
+                correlated with their
+                contributed resource to the system. Second, the presence of
+                free-loaders could dramatically degrade the delivered quality to
+                participating peers even when the amount of available resources in the
+                system
+                are adequate. Our findings suggest that P2P streaming should be able to
+                address these issues in order to be successfully deployed among
+                residential users.
+                </p>
+                <br>
+                <b><span class="GramE">
+                    <a name="Scheduling">
+                    </a>Dissecting the Performance of Live Mesh-based Peer-to-Peer Streaming
+                </span></b><p>
+                Mesh-based Peer-to-Peer streaming mechanisms incorporate swarming
+                content
+                delivery and thus are able to support scalable streaming of live content.
+                Their key component is a packet scheduling scheme at each peer
+                that determines pulled packet from neighbors while accommodating
+                in-time arrival and diversity of delivered packets.
+                Besides packet scheduling scheme, the overall performance of a mesh-based P2P streaming mechanism
+                also depends on the availability of excess resources in the system.
+                Recently proposed mesh-based P2P streaming mechanisms have been evaluated
+                in a scenario-rich setting. Thus, neither their performance in a resource
+                constraint scenario nor the separate effect of packet scheduling and
+                available
+                resources on their performance is known.
+                In this project, we dissect the performance of mesh-based P2P streaming mechanism and investigate
+                the effect of packet scheduling and available resource on their performance.
+                We argue that the global pattern of content delivery primarily determines
+                behavior of a mesh-based P2P streaming system. We present a new evaluation methodology that
+                properly captures this pattern. Using our evaluation methodology,
+                we examine the performance of representative scheduling schemes and
+                the role of available resources. Our findings provide useful insights
+                in design and evaluation of mesh-based P2P streaming mechanisms.
+                
+                </p>
+                <br>
+                <b><span class="GramE">
+                    <a name="omr">
+                    </a>OMR: Overlay Monitoring and Repair in Swarm-based Peer-to-Peer Streaming
+                </span></b><p>
+                In Swarm-based Peer-to-Peer Streamiing (SPS) mechanisms, participating
+                peers form a randomly connected mesh over which they incorporate swarm-like
+                content delivery. In
+                practice, a subset of participating peers may form clusters in the overlay
+                due to various reasons
+                such as localization of connectivity within edge ISPs. Despite the commonly
+                held assumptions, the appearance of such clusters could significantly
+                degrade the
+                delivered quality to participating peers in SPS mechanisms.</p>
+                <p>This project examines the effect of overlay clustering on the
+                performance of SPS mechanisms for live content. Leveraging the
+                notion of two-phase content delivery in SPS mechanisms, we illustrate the effect of
+                overlay clustering on content delivery. We propose the Overlay
+                Monitoring and Repair (OMR) mechanism as a distributed and scalable approach to maintain proper
+                overlay connectivity in SPS mechanisms. The key idea is to use delivered
+                quality to individual peers as an indication of poor connectivity from
+                other regions of the overlay. OMR employs a probabilistic approach to
+                ensure an adequate number of properly-positioned
+                peers reacts to detected clustering in the overlay without any coordination.
+                Reacting peers rewire a small number of carefully-selected connections in the overlay
+                to significantly improve the performance of content delivery. </p>
+                <p></p>
+                <br>
+                <b><span class="GramE">
+                    <a name="isp">
+                    </a>ISP-Friendly Swarm-based Peer-to-Peer Streaming</span></b><p>
+                P2P streaming applications have been widely used for scalable streaming of
+                live multimedia over the Internet. Their high bandwidth demand potentially can result in
+                generating a significant amount of network traffic. P2P
+                applications build a random overlay among peers and often ignore the
+                underlying network topology. This imposes a significant amount of
+                costly traffic on ISPs. For this reason, ISPs try to reduce the costly inter-ISP traffic by
+                various means and thus, localized the P2P traffic. Localization can
+                significantly degrades the performance of live P2P
+                streaming applications. In a localized P2P
+                overlay, there may not be adequate shortcuts throughout the varous
+                parts of the overlay to ensure the diversity of content in each neighborhood. Thus,
+                localization may results in decreasing the diversity of content in each peer's
+                neighborhood and stretching the shape of the random P2P overlay. We propose the first
+                ISP-friendly Swarm-based P2P streaming mechanism with the goal of maintaining the P2P
+                streaming application performance while reducing inter-ISPs traffic. In
+                essence, we design an ISP-friendly block scheduling algorithm that
+                considers the localized topology of the P2P overlay for smart block scheduling.
+                Our evaluation results demonstrate that through the proposed ISP-friendly
+                mechanism, the delivered quality to individual peers in a localized overlay is
+                comparable to the peers' quality in a random overlay.
+                <br>
+                
+                <br>
+                <br>
+                <big style="font-weight: bold;" class="header;"><span style="color:
+                    rgb(123, 0, 0);"><a name="Paper"></a>Papers &amp; Presentations:</span></big>
+                </p><hr style="width: 100%; height: 2px;">
+                <br>
+                <o:p></o:p>
+                    <ul>
+                        <li><b>ISP-Friendly P2P Streaming</b><br>
+                            Nazanin Magharei, Reza Rejaie, Volker Hilt, Ivica Rimac,
+                            Markus Hofmann
+                            <br>In submission<br>
+                            Technical Report CIS-TR-2009-02, University of Oregon,
+                            August 2009</li>
+                        <li><b><a href="../../pub/Cont-p2pna20.pdf">Incorporating
+                            Contribution-Awareness into Mesh-based Peer-to-Peer
+                            Streaming Services</a></b><br>Nazanin Magharei, Reza Rejaie,
+                            Yang Guo<br><i>Peer-to-Peer Networking and Applications</i>,
+                            July 2010</li>
+                        <li><b><a href="../../pub/e-letter09-magharei.doc">ISP-Friendly P2P
+                            Streaming
+                        </a></b><br>Nazanin Magharei, Reza Rejaie
+                            <br><i>Invited article in IEEE MULTIMEDIA COMMUNICATIONS
+                                TECHNICAL COMMITTEE E-Letter</i>, October 2009</li>
+                        <li><b><a href="../../pub/nossdav76-magharei.pdf">Overlay Monitoring and
+                            Repair in Swarm-based Peer-to-Peer Streaming</a></b><br>Nazanin
+                            Magharei, Reza Rejaie<br><i>Proceedings of the <a href="http://www.nossdav.org/2009">International Workshop on
+                                Network and Operating Systems Support for Digital Audio and
+                                Video</a></i>, Williamsburg,
+                            Virginia, June 2009</li>
+                        <li><b><a href="../../pub/prime-ton.pdf">PRIME: Peer-to-Peer Receiver-drIven MEsh-based
+                            Streaming</a></b><br>Nazanin Magharei, Reza
+                            Rejaie<br><i>Accepted to <a href="http://www.ton.cs.umass.edu/">IEEE/ACM Transactions on
+                                Networking</a>, to
+                                appear in October 2009</i></li>
+                        <li><b>Dissecting the performance of Live Mesh-based Peer-to-Peer Streaming</b><br>
+                            Nazanin Magharei, Reza Rejaie<br>
+                            In submission</li>
+                        <li><b><a href="../../pub/magharei-jsac-07.pdf">Incorporating
+                            Contribution-Awareness into Mesh-based Peer-to-Peer Streaming Services</a></b><br>
+                            Nazanin Magharei, Reza Rejaie, Yang Guo<br>
+                            In submission</li>
+                        <li><b><a href="../../pub/infocom07-prime.pdf">PRIME:
+                            Peer-to-Peer
+                            Receiver-drIven MEsh-based Streaming</a></b><br>
+                            Nazanin Magharei, Reza Rejaie <br>
+                            <i>Proceedings of <a href="http://www.ieee-infocom.org/2007/"> IEEE
+                                INFOCOM</a></i>,pp. 1415-1423,Anchorage, Alaska, May 2007</li>
+                        <li><b><a href="../../pub/infocom07-treemesh.pdf">Mesh or Multiple-Tree: A
+                            Comparative Study of Live P2P Streaming Approaches</a></b><br>Nazanin Magharei, Reza Rejaie, Yang Guo <br>
+                            <i>Proceedings of <a href="http://www.ieee-infocom.org/2007/"> IEEE
+                                INFOCOM</a></i>,pp. 1424-1432,
+                            Anchorage, Alaska, May 2007</li>
+                        
+                        <li><b><a href="../../pub/ccnc07.pdf">Issues in Offering
+                            Live P2P Streaming Service to Residential Users </a></b><br>Nazanin Magharei, Reza Rejaie, Yang Guo <br>
+                            <i> Proceedings of <a href="http://www.ieee-ccnc.org/conference/conference.html"> IEEE
+                                Consumer Communications and Networking Conference</a></i>, pp. 757-762, Las Vegas,
+                            January 2007</li>
+                        
+                        <li><b><a href="../../pub/nossdav06.pdf">Understanding
+                            Mesh-based Peer-to-Peer Streaming </a></b><br>
+                            Nazanin Magharei, Reza Rejaie <br>
+                            <i>Proceedings of the <a href="http://www.nossdav.org/2006/">International Workshop on Network
+                                and Operating Systems Support for Digital Audio and
+                                Video</a></i>, pp 56-61, Newport, Rhode Island, May 2006</li>
+                        
+                        <li><b><a href="../../pub/sigcomm05-poster.pdf">Peer-to-Peer
+                            Receiver-driven Mesh- based Streaming</a></b><br>Nazanin Magharei, Amir h. Rasti, Daniel Stutzbach , Reza Rejaie<br>
+                            <i>Proceedings of the <a href="http://www.acm.org/sigs/sigcomm/sigcomm2005/">ACM SIGCOMM</a>, <a href="http://www.acm.org/sigs/sigcomm/sigcomm2005/poster.html">Poster
+                                Session</a></i>, August 2005
+                        </li>
+                        
+                    </ul>
+                    <br>
+                    <p class="MsoNormal" style=""><big style="font-weight: bold;"><span style="color: rgb(123, 0, 0);" class="header;"><a name="People"></a>People:</span></big></p>
+                    <hr style=" width: 100%; height: 2px;"><br>
+                    
+                    
+                    <ul>
+                        
+                        <li><i><a href="http://www.cs.uoregon.edu/%7Enazanin">
+                            <b>Nazanin Magharei</b></a></i></li>
+                        <i> </i>
+                    </ul>
+                    <br>
+                    <br>
+                    <p class="MsoNormal" style=""><big style="font-weight: bold;"><span style="color: rgb(123, 0, 0);" class="header;"><a name="Software"></a>Software:</span></big></p>
+                    <hr style=" width: 100%; height: 2px;"><br>
+                    
+                    
+                    <ul>
+                        
+                        <li><a href="software/prime.tar.gz"> PRIME code </a> is available for download.
+                            Additional information can be found at this <a href="location.html#top">
+                                location</a>.</li>
+                        <i> </i>
+                    </ul>
+                    <br>
+                    <big style="font-weight: bold;"><span style="color: rgb(123, 0, 0);" class="header;"><a name="Relevant Projects"></a>Relevant Projects:</span></big>
+                    <hr style=" width: 100%; height: 2px;"><br>
+                    <ul>
+                        <li><i><a href="http://www.research.microsoft.com/projects/CoopNet/"><b>CoopNet
+                            - Microsoft Research</b></a></i></li>
+                        <i> </i>
+                        <li><i> <b><a href="http://research.microsoft.com/%7Eantr/SplitStream/"><span class="SpellE">SplitStream - Microsoft Research</span></a></b><o:p></o:p></i></li>
+                        <i> </i>
+                        <li><i><strong><a href="http://www.cs.purdue.edu/homes/jiangx/02fall/590n/590n_report.html">GnuStream
+                            - Purdue University</a> <o:p></o:p></strong></i></li>
+                        <i> </i>
+                        <li><i><a href="http://cairo.cs.uiuc.edu/multimediacomm/index.html"><strong>MONET
+                            - UIUC University</strong></a></i></li>
+                        <i> </i>
+                        <li style="font-weight: bold;"><span class="style1"><i><a href="http://www.cs.purdue.edu/homes/mhefeeda/projects/collectCast.html">CollectCast
+                            - Purdue University</a></i></span></li>
+                        <i> </i>
+                        <li><i><strong><a href="http://nemesys.comp.nus.edu.sg/">Dagster
+                            - NUS University</a></strong></i></li>
+                    </ul><br>
+                    <p class="MsoNormal" style=""><i><b><span style="font-size: 14pt; font-family: Verdana;">Acknowledgment and
+                        Disclaimer<o:p></o:p></span></b> </i></p>
+                    <hr style="margin-left: 40px;" class="line">
+                    <i><i>This material is
+                        based upon work supported by the
+                        National Science Foundation
+                        under Grant No. 0448639.
+                        Any opinions, findings, and conclusions or recommendations expressed in
+                        this
+                        material are those of the author(s) and do not necessarily reflect the
+                        views
+                        of the National Science Foundation.</i></i></div>
+            <ol style="font-weight: bold;">
+                <big> </big>
+                <ol style="font-weight: bold;">
+                </ol>
+                <big> </big>
+            </ol>
+    </body>
+</html>

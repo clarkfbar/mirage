@@ -1,0 +1,227 @@
+<peoples>
+	<faculty>
+		<name>Reza Rejaie</name>
+		<title>Associate Professor at University of Oregon</title>
+		<homepage>ix.cs.uoregon.edu/~reza</homepage>
+		<photo>photo/pic-rrejaie.jpg</photo>
+	</faculty>
+	<visitor>
+		<name>Prof. Ruben Cuevas</name>
+		<title>Teaching Assistant at Universidad Carlos III de Madrid</title>
+        <time>Jan 2012 - Dec 2012</time>
+		<homepage>http://www.it.uc3m.es/rcuevas/</homepage>
+		<photo>photo/pic-rcuevas.jpg</photo>
+	</visitor>
+	<cstudent>
+		<name>Amir Farzad</name>
+		<title>PhD Student</title>
+		<timeofjoin></timeofjoin>
+		<homepage></homepage>
+		<photo>photo/pic-afarzad.jpg</photo>
+	</cstudent>
+    <cstudent>
+		<name>Jason Fahrion</name>
+		<title>MS Student</title>
+		<timeofjoin></timeofjoin>
+		<homepage></homepage>
+		<photo></photo>
+	</cstudent>
+    <cstudent>
+		<name>Reza Motamedi</name>
+		<title>PhD Student</title>
+		<timeofjoin></timeofjoin>
+		<homepage></homepage>
+		<photo></photo>
+	</cstudent>
+    <cstudent>
+		<name>Hannah Pruse</name>
+		<title>Undergraduate Student</title>
+		<timeofjoin></timeofjoin>
+		<homepage></homepage>
+		<photo>photo/pic-hpruse.jpg</photo>
+	</cstudent>
+    <pstudent>
+		<name>Amir Rasti</name>
+		<title>PhD Graduate</title>
+		<timeofgrad>December 2012</timeofgrad>
+		<currentat></currentat>
+		<homepage>http://ix.cs.uoregon.edu/~amir/</homepage>
+		<photo>photo/pic-arasti.jpg</photo>
+	</pstudent>
+	<pstudent>
+		<name>Zeyu Feng</name>
+		<title>BS Graduate</title>
+		<timeofgrad>December 2012</timeofgrad>
+		<currentat></currentat>
+		<homepage>http://ix.cs.uoregon.edu/~zeyu/</homepage>
+		<photo>photo/pic-zfeng.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Shahab Yasami</name>
+		<title>MS Graduate</title>
+		<timeofgrad>December 2011</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Kaveh Kazemi</name>
+		<title>MS Graduate</title>
+		<timeofgrad>December 2011</timeofgrad>
+		<currentat>Software Developer at Emberex. Inc</currentat>
+		<homepage></homepage>
+		<photo>photo/pic-kkazemi.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Nazanin Magharei</name>
+		<title>PhD Graduate</title>
+		<timeofgrad>November 2011</timeofgrad>
+		<currentat>Research Scientist at Georgia Institute of Technology</currentat>
+		<homepage>http://www.cs.uoregon.edu/~nazanin</homepage>
+		<photo>photo/pic-nmagharei.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Eric M Berglund</name>
+		<title>PhD Graduate</title>
+		<timeofgrad>March 2011</timeofgrad>
+		<currentat>REU Funded</currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+	<pstudent>
+		<name>Mojtaba Torkjazi</name>
+		<title>PhD Graduate</title>
+		<timeofgrad>December 2010</timeofgrad>
+		<currentat>Software Engineer at STEC, Inc</currentat>
+		<homepage></homepage>
+		<photo>photo/pic-mtorkjazi.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Masoud Valafar</name>
+		<title>MS Graduate</title>
+		<timeofgrad>December 2010</timeofgrad>
+		<currentat>Software Developer at Emberex. Inc</currentat>
+		<homepage>http://www.linkedin.com/pub/masoud-valafar/13/367/95b</homepage>
+		<photo>photo/pic-mvalafar.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Ghulam Meomon</name>
+		<title>PhD Student at UO</title>
+		<timeofgrad>September 2010</timeofgrad>
+		<currentat></currentat>
+		<homepage>http://ix.cs.uoregon.edu/~gmemon/</homepage>
+		<photo>photo/pic-gmemon.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Jimmy Hastings</name>
+		<title>Honors Thesis</title>
+		<timeofgrad>August 2008</timeofgrad>
+		<currentat>REU Founded</currentat>
+		<homepage></homepage>
+		<photo>photo/pic-jhastings.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Daniel Stutzbach</name>
+		<title>PhD Graduate</title>
+		<timeofgrad>November 2006</timeofgrad>
+		<currentat>Founder of <a href='stutzbachenterprises.com/'>Stutzbach Enterprises</a>,Currently Software Engineer at Google</currentat>
+		<homepage></homepage>
+		<photo>photo/pic-dstutzbach.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Sudheer Mogilappagari</name>
+		<title>MS Graduate</title>
+		<timeofgrad>August 2007</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Sudheer Mogilappagari</name>
+		<title>MS Graduate</title>
+		<timeofgrad>August 2007</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>John Capehart</name>
+		<title>MS Graduate</title>
+		<timeofgrad>March 2007</timeofgrad>
+		<currentat>Senior Technical Consultant</currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Ryan Kersh</name>
+		<title>MS Graduate</title>
+		<timeofgrad>December 2006</timeofgrad>
+		<currentat>Advisory Software Developer at IBM</currentat>
+		<homepage>http://www.linkedin.com/pub/ryan-kersh/6/b38/746</homepage>
+		<photo>photo/pic-rkersh.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Ross McClure</name>
+		<title>BS Graduate</title>
+		<timeofgrad>August 2006</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Shanyu Zhao</name>
+		<title>MS Graduate</title>
+		<timeofgrad>August 2005</timeofgrad>
+		<currentat>Sr. Software Engineer at Intel Corporation</currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Aroon Nataraj</name>
+		<title>MS Graduate</title>
+		<timeofgrad>August 2005</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo>photo/pic-anataraj.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Vikash Agarwal</name>
+		<title>MS Graduate</title>
+		<timeofgrad>August 2005</timeofgrad>
+		<currentat>Senior Software Engineer at Ericsson</currentat>
+		<homepage>http://www.linkedin.com/pub/vikash-agarwal/47/250/504</homepage>
+		<photo>photo/pic-vagarwal.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Daniel Ellsworth</name>
+		<title>BS Graduate, PhD Student at UO</title>
+		<timeofgrad>August 2005</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo>photo/pic-dellsworth.jpg</photo>
+	</pstudent>
+    <pstudent>
+		<name>Minho Kim</name>
+		<title>BS Graduate</title>
+		<timeofgrad>August 2004</timeofgrad>
+		<currentat>Software Engineer at Responsys</currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Chan (Thomas) Yu-Hao</name>
+		<title>MS Graduate</title>
+		<timeofgrad>March 2004</timeofgrad>
+		<currentat></currentat>
+		<homepage></homepage>
+		<photo></photo>
+	</pstudent>
+    <pstudent>
+		<name>Shad Stafford</name>
+		<title>MS Graduate</title>
+		<timeofgrad>March 2004</timeofgrad>
+		<currentat>Palo Alto Software</currentat>
+		<homepage>http://www.linkedin.com/in/shadstafford</homepage>
+		<photo>photo/pic-sstafford.jpg</photo>
+	</pstudent>
+</peoples>

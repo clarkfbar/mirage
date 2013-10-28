@@ -1,0 +1,961 @@
+<publications>
+	<section>
+		<section_title>Refereed Journal Articles</section_title>
+		<section_id>1</section_id>
+		<publication>
+            <title>ISP-friendly Live P2P Streaming</title>
+			<line>Nazanin Magharei, Reza Rejaie, Ivica Rimac, Volker Hilt, Markus Hofmann</line>
+			<line>IEEE/ACM Transactions on Networking, (accepted) January 2013</line>
+		</publication>
+		<publication>
+			<title>Tsunami: A Parasitic, Indestructible Botnet on Kad</title>
+			<line>Ghulam Memon, Jun Li, Reza Rejaie</line>
+			<line>Peer-to-Peer Networking and Applications, (accepted) Feburary 2013</line>
+		</publication>
+        <publication>
+			<title>Unveiling the Incentives for Content Publishing in Popular BitTorrent Portals</title>
+			<line>Ruben Cuevas, Michal Kryczka, Angel Cuevas, Sebastian Kaune, Carmen Guerrero, Reza Rejaie</line>
+			<line>IEEE/ACM Transactions on Networking, October 2012</line>
+		</publication>
+        <publication>
+			<title>Montra: A Large-Scale DHT Traffic Monitor</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/comnet2011-montra.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Ghulam Memon, Reza Rejaie, Yang Guo, Daniel Stutzbach</line>
+			<line>Elsevier Computer Networks, Special Issue on Measurement-based Optimization of P2P Networking and Applications, Volume 56, Issue 3, pp. 1080-1091, February 2012</line>
+		</publication>
+        <publication>
+			<title>Incorporating Contribution-Awareness into Mesh-based Peer-to-Peer Streaming Services</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/Cont-p2pna20.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Nazanin Magharei, Reza Rejaie, Yang Guo</line>
+			<line>Peer-to-Peer Networking and Applications, Volume 4, Issue 3, pp. 231-250, September 2011</line>
+		</publication>
+        <publication>
+			<title>Sizing up Online Social Networks</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/rejaie10ieee.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Reza Rejaie, Mojtaba Torkjazi, Masoud Valafar, Walter Willinger</line>
+			<line>IEEE Network Special Issue on Online Social Networks, Volume 24, Number 5, September/October 2010</line>
+		</publication>
+        <publication>
+			<title>ISP-Friendly P2P Streaming</title>
+            <link>
+                <type>DOC</type>
+                <url>../pub/e-letter09-magharei.doc</url>
+                <icon>DOC_icon.png</icon>
+            </link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>Invited article in &lt;a href=&apos;http://www.comsoc.org/~mmc/&apos;&gt;IEEE MULTIMEDIA COMMUNICATIONS TECHNICAL COMMITTEE E-Letter&lt;/a&gt; , October 2009</line>
+		</publication>
+        <publication>
+			<title>Characterization of P2P Systems</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/BookChapter08-Stutzbach.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Daniel Stutzbach, Reza Rejaie</line>
+			<line>Book Chapter, &lt;a href=&apos;http://www.springer.com/computer/communications/book/978-0-387-09750-3?detailsPage=toc&apos;&gt;Handbook of Peer-to-Peer Networking&lt;/a&gt;, Shen, X.; Yu, H.; Buford, J.; Akon, M. (Eds.), Springer, March 2009, ISBN: 978-0-387-09750-3</line>
+		</publication>
+        <publication>
+			<title>PRIME: Peer-to-Peer Receiver-drIven MEsh-based Streaming</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/ton-camera.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>IEEE/ACM Transactions on Networking, Volume 17, Number 4, August 2009</line>
+		</publication>
+        <publication>
+			<title>On Unbiased Sampling for Unstructured Peer-to-Peer Networks</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/sampling-ton07.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Daniel Stutzbach, Reza Rejaie, Nick Duffield, Subhabrata Sen, Walter Willinger</line>
+			<line>IEEE/ACM Transactions on Networking, Volume 16, Number 6, 2008
+</line>
+		</publication>
+        <publication>
+			<title>Lookup Performance over a Widely-Deployed DHT</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/tba.html</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Daniel Stutzbach, Reza Rejaie</line>
+			<line>In submission</line>
+		</publication>
+        <publication>
+			<title>Characterizing Unstructured Overlay Topologies in Modern P2P File-Sharing Systems</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/ton07-gnutopo.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Daniel Stutzbach, Reza Rejaie, Subhabrata Sen</line>
+			<line>IEEE/ACM Transactions on Networking, Volume 16, Number 2, April 2008</line>
+		</publication>
+        <publication>
+			<title>A Historic Open Reviewing at Global Internet'07</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/ccr07-openReview.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Michalis Faloutsos, Reza Rejaie, Anirban Banerjee</line>
+			<line>ACM SIGCOMM Computer Communication Review, Volume 37, Number 3, July 2007</line>
+		</publication>
+        <publication>
+			<title>Characterizing Files in the Modern Gnutella Network</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/msj07-filechar.pdf</url>
+                <icon>Acrobat.gif</icon>
+            </link>
+			<line>Daniel Stutzbach, Shanyu Zhao, Reza Rejaie</line>
+			<line>&lt;a href=&apos;http://www.springerlink.com/content/1367547006386758/&apos;&gt;ACM/SPIE Multimedia Systems Journal&lt;/a&gt; , Volume 1, Issue 13, pp. 35-50, March 2007</line>
+		</publication>
+        <publication>
+			<title>Anyone Can Broadcast Video Over the Internet</title>
+            <link>
+                <type>HTML</type>
+                <url>http://delivery.acm.org/10.1145/1170000/1167863/p55-rajaie.html?key1=1167863&amp;%0Akey2=9157833611&amp;coll=ACM&amp;dl=ACM&amp;CFID=15151515&amp;CFTOKEN=6184618</url>
+                <icon>firefox.jpg</icon>
+            </link>
+			<line>Reza Rejaie</line>
+			<line>&lt;a href=&apos;http://www.acm.org/pubs/cacm/&apos;&gt;Communications of the ACM, special issue on Entertainment Networking&lt;/a&gt; , Volume 49, Number 11, pp. 55-57, November 2006
+            </line>
+		</publication>
+        <publication>
+			<title>Adaptive Receiver-Driven Streaming from Multiple Senders</title>
+            <link>
+                <type>PDF</type>
+                <url>../pub/pals-msj06.pdf</url>
+                <icon>firefox.jpg</icon>
+            </link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>&lt;a href=&apos;http://dx.doi.org/10.1007/s00530-006-0037-x&apos;&gt;ACM/SPIE Multimedia Systems Journal&lt;/a&gt;, Volume 11, Issue 6, pp. 550-567, Springer-Verlag, April 2006</line>
+		</publication>
+        <publication>
+			<title>Layered Quality Adaptation for Internet Video Streaming</title>
+            <link>
+                <type>Postscript</type>
+                <url>../pub/jsac00.ps</url>
+                <icon>ps_icon.gif</icon>
+            </link>
+			<line>Reza Rejaie, Mark Handley, Deborah Estrin</line>
+			<line>IEEE Journal on Selected Areas of Communications(JSAC), Special issue on Internet QoS, pp. 2530-2543, Winter 2000</line>
+		</publication>
+        <publication>
+			<title>Improving Simulation for Network Research</title>
+            <link>
+                <type>Postscript</type>
+                <url>ftp://usc.edu/pub/csinfo/tech-reports/papers/99-702.ps.Z</url>
+                <icon>ps_icon.gif</icon>
+            </link>
+			<line>Sandeep Bajaj, Lee Breslau, Deborah Estrin, Kevin Fall, Sally Floyd, Padma Haldar, Mark Handley, Ahmed Helmy, John Heidemann, Polly Huang, Satish Kumar, Steven McCanne, Reza Rejaie, Puneet Sharma, Kannan Varadhan, Ya Xu, Haobo Yu, Daniel Zapalla </line>
+			<line>IEEE Computer , Volume 33, pp. 59-67, May 2000</line>
+		</publication>
+        <publication>
+			<title>MITRA: A Continuous Media Server</title>
+            <link>
+                <type>HTML</type>
+                <url>http://perspolis.usc.edu/Users/zimmerma/mitra/report.html</url>
+                <icon>firefox.jpg</icon>
+            </link>
+			<line>S. Ghandeharizadeh, R. Zimmermann, W. Shi, R. Rejaie, D. Ierardi, and T. Li,</line>
+			<line>Multimedia Tools and Applications journal (&lt;a href=&apos;http://www.wkap.com/&apos;&gt;Kluwer Academic Publishers&lt;/a&gt;, Volume 5, Number 1, pp. 79-108, July 1997)</line>
+            <line>Also appeared as a book chapter, Multimedia Technologies and Applications for the 21st Century,
+                (Editor Borko Furht, Kluwer Academic Publishers, Boston, December 1997, ISBN: 0-7923-8074-6)</line>
+		</publication>
+	</section>
+    
+    <section>
+		<section_title>Refereed Conference &amp; Workshop Papers</section_title>
+		<section_id>2</section_id>
+		<publication>
+			<title>Google+ or Google-? Dissecting the Evolution of the New OSN in its First Year</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/g+_main_2submit.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Roberto Gonzalez, Ruben Cuevas, Reza Motamedi, Reza Rejaie, Angel Cuevas</line>
+			<line>WWW 2013, Rie de Janeiro, Brazil, May 2013 [acceptance rate 15%]</line>
+		</publication>
+        <publication>
+			<title>Eyeball ASes: From Geography to Connectivity</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/imc10-rasti.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../slide/rasti-IMC2010-slides.pdf</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Amir H. Rasti, Nazanin Magharei, Reza Rejaie, Walter Willinger</line>
+			<line>Accepted to &lt;a href=&apos;http://conferences.sigcomm.org/imc/2010/&apos;&gt;ACM SIGCOMM Internet Measurement Conference 2010&lt;/a&gt;, Melbourne, Australia, November 2010 [acceptance rate 22%]</line>
+		</publication>
+        <publication>
+			<title>On the Design of Scalable Peer-to-Peer Video Caching</title>
+			<link>
+				<type>PDF</type>
+				<url></url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Alex Bikfalvi, Nazanin Magharei, Reza Rejaie, Jaime Garcia-Reinoso</line>
+			<line>In submission, Feb 2010</line>
+		</publication>
+        <publication>
+			<title>Is Content Publishing in BitTorrent Altruistic or Profit-Driven?</title>
+			<link>
+				<type>PDF</type>
+				<url>http://conferences.sigcomm.org/co-next/2010/CoNEXT_papers/11-Cuevas.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Ruben Cuevas, Michal Kryczka, Angel Cuevas, Sebastian Kaune, Carmen Guerrero, Reza Rejaie</line>
+			<line>Accepted to &lt;a href=&apos;http://conferences.sigcomm.org/co-next/2010&apos;&gt;ACM CoNext&lt;/a&gt;, November 2010 [acceptance rate 19%] This paper was selected for fast-track submission to IEEE/ACM Transactions of Networking</line>
+		</publication>
+        <publication>
+			<title>Tsunami: Identifying New Class of Botnets</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/tba.html</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Ghulam Memon, Jun Li, Reza Rejaie </line>
+			<line>In submission</line>
+		</publication>
+        <publication>
+			<title>Characterizing the Global Impact of P2P Overlays on the AS-Level Underlay</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/rasti-pam-10.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+                <type>Powerpoint</type>
+                <url>../slide/rasti-pam-2010-slides.pdf</url>
+                <icon>ppt-icon.jpg</icon>
+            </link>
+			<line>Amir H. Rasti, Reza Rejaie, Walter Willinger</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.pam2010.ethz.ch/&apos;&gt;Passive &amp; Active Measurement Conference&lt;/a&gt;, Zurich, Switzerland, April 2010 [acceptance rate 29%]</line>
+		</publication>
+        <publication>
+			<title>ISP-Friendly Live P2P Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>http://www.cs.uoregon.edu/%7Ereza/PUB/tba.html</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie, Volker Hilt, Ivica Rimac, Markus Hofmann</line>
+			<line>In submission</line>
+            <line>Technical Report CIS-TR-2009-02, University of Oregon, August 2009</line>
+		</publication>
+        <publication>
+			<title>Research on Online Social Networks: Time to Face the Real Challenges</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/willinger-hotmetrics-09.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../slide/rasti-pam-2010-slides.pdf</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Amir H. Rasti, Reza Rejaie, Walter Willinger</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.pam2010.ethz.ch/&apos;&gt;Passive &amp; Active Measurement Conference&lt;/a&gt;, Zurich, Switzerland, April 2010 [acceptance rate 29%]</line>
+		</publication>
+        <publication>
+			<title>ISP-Friendly Live P2P Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>http://www.cs.uoregon.edu/%7Ereza/PUB/tba.html</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie, Volker Hilt, Ivica Rimac, Markus Hofmann</line>
+			<line>In submission</line>
+            <line>Technical Report CIS-TR-2009-02, University of Oregon, August 2009</line>
+		</publication>
+        <publication>
+			<title>Research on Online Social Networks: Time to Face the Real Challenges</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/willinger-hotmetrics-09.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+                <type>Powerpoint</type>
+                <url>../slide/willinger-hotmetrics-09.ppt</url>
+                <icon>ppt-icon.jpg</icon>
+            </link>
+			<line>Walter Willinger, Reza Rejaie, Mojtaba Torkjazi, Masoud Valafar, Mauro Maggioni</line>
+            <line>Accepted to &lt;a href=&apos;http://www.sigmetrics.org/conferences/sigmetrics/2009/workshops/Hotmetrics2009-CFP-v6.shtml&apos;&gt;The 2nd Workshop on Hot Topics in Measurement and Modeling of Computer Systems (HotMetrics)&lt;/a&gt;, Seattle, Washington, June 2009</line>
+		</publication>
+        <publication>
+			<title>Hot Today, Gone Tomorrow: On the Migration of MySpace Users</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/torkjazi09wosn.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+                <type>Powerpoint</type>
+                <url>../slide/torkjazi09wosn.ppt</url>
+                <icon>ppt-icon.jpg</icon>
+            </link>
+			<line>Mojtaba Torkjazi, Reza Rejaie, Walter Willinger</line>
+            <line>Accepted to &lt;a href=&apos;http://conferences.sigcomm.org/sigcomm/2009/workshops/wosn/&apos;&gt;ACM SIGCOMM Workshop on Online Social Networks (WOSN)&lt;/a&gt;, Barcelona, Spain, August 2009 [acceptance rate 33%]</line>
+		</publication>
+        <publication>
+			<title>Beyond Friendship Graphs: A Study of User Interactions in Flickr</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/valafar-wosn-09.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+                <type>Powerpoint</type>
+                <url>../pub/masoud/WOSN09-Flickr.pptx</url>
+                <icon>ppt-icon.jpg</icon>
+            </link>
+			<line>Masoud Valafar, Reza Rejaie, Walter Willinger</line>
+            <line>Accepted to &lt;a href=&apos;http://conferences.sigcomm.org/sigcomm/2009/workshops/wosn/&apos;&gt;ACM SIGCOMM Workshop on Online Social Networks (WOSN)&lt;/a&gt;, Barcelona, Spain, August 2009 [acceptance rate 33%]</line>
+		</publication>
+		<publication>
+			<title>Overlay Monitoring and Repair in Swarm-based Peer-to-Peer Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/nossdav76-magharei.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/nazaninmagharei-talk-nossdav09.pdf</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>Accepted to &lt;a href=&apos;http://www.nossdav.org/2009/&apos;&gt;NOSSDAV&lt;/a&gt;, Williamsburg, Virginia, June 2009 [acceptance rate 31%]</line>
+		</publication>
+        <publication>
+			<title>Respondent-driven Sampling for Characterizing Unstructured Overlays</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/infocom09-sampling.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/infocom09-sampling.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Amir H. Rasti, Mojtaba Torkjazi, Reza Rejaie, Nick Duffield, Walter Willinger. Daniel Stutzbach</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.ieee-infocom.org/&apos;&gt;IEEE INFOCOM Mini-conference &lt;/a&gt;, Rio de Janeiro, Brazil, April 2009 [acceptance rate including INFOCOM 26.6%]</line>
+		</publication>
+        <publication>
+			<title>Large-Scale Monitoring of DHT Traffic</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/iptps09-montra.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+                <type>HTML</type>
+                <url>../pub/iptps09-montra/</url>
+                <icon>firefox.jpg</icon>
+            </link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/memon-iptps-2009.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Ghulam Memon, Reza Rejaie, yang Guo, Daniel Stutzbach</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.usenix.org/event/iptps09/index.html&apos;&gt;International Workshop on Peer-to-Peer Systems (IPTPS)&lt;/a&gt;, Boston, MA, April 2009 [acceptance rate 20%]</line>
+		</publication>
+        <publication>
+			<title>Dissecting the performance of Live Mesh-based Peer-to-Peer Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/tba.html</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>In submission</line>
+            <line>Technical Report CIS-TR-2007-01, University of Oregon, July 2007</line>
+		</publication>
+        <publication>
+			<title>Understanding Peer-Level Performance in BitTorrent: A Measurement Study</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/icccn07-BT.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../pub/icccn07-BT.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Amir H. Rasti, Reza Rejaie</line>
+			<line>Proceedings of 16th International Conference on Computer Communications and Networks (&lt;a href=&apos;http://www.icccn.org/icccn07/index.html&apos;&gt;ICCCN&lt;/a&gt;), one of the &lt;a href=&apos;http://www.icccn.org/icccn07/ChairsRecP.htm&apos;&gt;Chairs Recommended Papers&lt;/a&gt;, Honolulu, Hawaii, August 2007 [acceptance rate 29%]</line>
+		</publication>
+        <publication>
+			<title>Examining Graph Properties of Unstructured Peer-to-Peer Overlay Topology</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/gnu-gi07.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Chao Xie, Sijie Guo, Reza Rejaie, Yi Pan</line>
+			<line>Proceedings of &lt;a href=&apos;http://netsec.cs.uoregon.edu/gi2007/&apos;&gt;IEEE Global Internet Symposium&lt;/a&gt;, Anchorage, Alaska, May 2007 [acceptance rate 35%]</line>
+		</publication>
+        <publication>
+			<title>Mesh or Multiple-Tree: A Comparative Study of Live P2P Streaming Approaches</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/infocom07-treemesh.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/magharei-infocom-2007.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie, Yang Guo</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.ieee-infocom.org/2007/&apos;&gt;IEEE INFOCOM&lt;/a&gt;, pp. 1424-1432, Anchorage, Alaska, May 2007 [acceptance rate 17%]
+            </line>
+		</publication>
+        <publication>
+			<title>PRIME: Peer-to-Peer Receiver-drIven MEsh-based Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/infocom07-prime.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-infocom-2007.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.ieee-infocom.org/2007/&apos;&gt;IEEE INFOCOM&lt;/a&gt;, pp. 1415-1423, Anchorage, Alaska, May 2007 [acceptance rate 17%]
+            </line>
+		</publication>        
+        <publication>
+			<title>Issues in Offering Live P2P Streaming Service to Residential Users</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/ccnc07.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/magharei-ccnc-2007.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Nazanin Magharei, Yang Guo, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.ieee-ccnc.org/2007/&apos;&gt;IEEE Consumer Communications and Networking Conference&lt;/a&gt;, pp. 757-762, Las Vegas, January 2007
+            </line>
+		</publication>
+        <publication>
+			<title>On Unbiased Sampling for Unstructured Peer-to-Peer Networks</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/imc06-sampling.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-imc-2006.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie, Nick Duffield, Subhabrata Sen, Walter Willinger</line>
+			<line>Proceedings of ACM SIGCOMM/USENIX &lt;a href=&apos;http://www.imconf.net/imc-2006/&apos;&gt;Internet Measurement Conference&lt;/a&gt;, pp. 27-40, Rio de Janeiro, Brazil, October 2006 [acceptance rate 22%]
+            </line>
+		</publication>
+        <publication>
+			<title>Understanding Churn in Peer-to-Peer Networks</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/imc06-churn.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/stutzbach-imc-2006.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie</line>
+			<line>Proceedings of ACM SIGCOMM/USENIX &lt;a href=&apos;http://www.imconf.net/imc-2006/&apos;&gt;Internet Measurement Conference&lt;/a&gt;, pp. 189-202, Rio de Janeiro, Brazil, October 2006 [acceptance rate 22%]
+            </line>
+		</publication>
+        <publication>
+			<title>Understanding Mesh-based Peer-to-Peer Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/nossdav06.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/magharei_nossdav_2006.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Nazanin Magharei, Reza Rejaie</line>
+			<line>Proceedings of the International Workshop on Network and &lt;a href=&apos;http://www.nossdav.org/2006/&apos;&gt;Operating Systems Support for Digital Audio and Video&lt;/a&gt;, pp 56-61, Newport, Rhode Island, May 2006 [acceptance rate 31% of 74]
+            </line>
+		</publication>
+        <publication>
+			<title>Sampling Techniques for Large, Dynamics Graphs</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/sampling-gi06.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url></url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie, Nick Duffield, Subhabrata Sen, Walter Willinger</line>
+			<line>Proceedings of &lt;a href=&apos;http://net.informatik.uni-tuebingen.de/gi2006/&apos;&gt;IEEE Global Internet Symposium&lt;/a&gt;, Barcelona, Spain, April 2006 [acceptance rate 36% of 63]
+            </line>
+		</publication>        
+        <publication>
+			<title>On the Long-term Evolution of the Two-tier Gnutella Overlay</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/gi-2006-long-term.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rasti-gi-2006.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Amir H. Rasti, Daniel Stutzbach, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://net.informatik.uni-tuebingen.de/gi2006/&apos;&gt;IEEE Global Internet Symposium&lt;/a&gt;, pp. 1-6, Barcelona, Spain, April 2006 [acceptance rate 36% of 63]
+            </line>
+		</publication>        
+        <publication>
+			<title>Improving Lookup Performance over a Widely-Deployed DHT</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/infocom06-kad.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/stutzbach-infocom-2006.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.ieee-infocom.org/2006/&apos;&gt;IEEE INFOCOM&lt;/a&gt;, pp. 1-12, Barcelona, Spain, April 2006 [acceptance rate 18%]
+            </line>
+		</publication>        
+        <publication>
+			<title>Characterizing Files in the Modern Gnutella Network: A Measurement Study</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/mmcn06.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/zhao-mmcn06.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Shanyu Zhao, Daniel Stutzbach, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.ifi.uio.no/mmcn2006/&apos;&gt;SPIE/ACM Multimedia Computing and Networking&lt;/a&gt;, pp. 1-13, San Jose, January 2006 [acceptance rate 25%]
+            </line>
+		</publication>        
+        <publication>
+			<title>Characterizing Unstructured Overlay Topologies in Modern P2P File-Sharing Systems</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/imc05.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/stutzbach-imc-2005.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie, Subhabrata Sen</line>
+			<line>Proceedings of the ACM SIGCOMM &lt;a href=&apos;http://www.usenix.org/events/imc05/&apos;&gt;Internet Measurement Conference&lt;/a&gt;, pp. 49-62, Berkeley, October 2005 [acceptance rate 27% of 82]
+            </line>
+		</publication>        
+        <publication>
+			<title>The Scalability of Swarming Peer-to-Peer Content Delivery</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/networking05.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Presentation</type>
+				<url>../slide/zappala-networking-2005.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Daniel Stutzbach, Daniel Zappala, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.cs.uwaterloo.ca/conferences/networking2005/&apos;&gt;Networking&lt;/a&gt;, pp. 15-26, Waterloo Ontario Canada, May 2005 [acceptance rate 25% of 430]
+            </line>
+		</publication>        
+        <publication>
+			<title>Capturing Accurate Snapshots of the Gnutella Network</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/cruiser-gi05.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Presentation</type>
+				<url>../slide/stutzbach_gi_2005.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.postel.org/gi2005/&apos;&gt;IEEE Global Internet Symposium&lt;/a&gt;, pp. 127-132, Miami, FL, March 2005 [acceptance rate 32% of 67]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Adaptive Multi-Source Streaming in Heterogeneous Peer-to-Peer Networks</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/mmcn05.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/agarwal-mmcn-2005.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Vikash Agarwal, Reza Rejaie</line>
+			<line>Proceedings of the &lt;a href=&apos;http://mmcn05.cse.nd.edu/&apos;&gt;SPIE/ACM Multimedia Computing and Networking&lt;/a&gt; , pp. 13-25, San Jose, CA, January 2005 [acceptance rate 16%]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>A Framework for Architecting Peer-to-Peer Receiver-driven Overlays</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/nossdav04.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-nossdav-2004.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Shad Stafford</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.nossdav.org/2004/&apos;&gt;International Workshop on Network and Operating Systems Support for Digital Audio and Video&lt;/a&gt;, pp. 42-47, Cork, Ireland, June 2004 [acceptance rate 25% of 95]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>PALS: Peer-to-Peer Adaptive Layered Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/nossdav03.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-nossdav-2003.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Antonio Ortega</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.nossdav.org/2003/&apos;&gt;International Workshop on Network and Operating Systems Support for Digital Audio and Video&lt;/a&gt;, pp. 153-161, Monterey, California, June 2003 [acceptance rate 30% of 60]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>On Integration of Congestion Control with Internet Streaming Applications</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/pv03.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Reza Rejaie</line>
+			<line>&lt;a href=&apos;http://www.polytech.univ-nantes.fr/pv2003/pages/welcome.php3&apos;&gt;Packet Video Workshop&lt;/a&gt;, Nantes, France, April 2003
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Design Issues for Layered Quality-Adaptive Internet Video Playback</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/iwdc01.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Reza Rejaie, Amy R. Reibman</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.cnit.it/events/tyrr2001.html&apos;&gt;International Workshop on Digital Communications&lt;/a&gt;, pp. 433-451, Taormina, Italy, September 2001
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Mocha: A Quality Adaptive Multimedia Proxy Cache for Internet Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/nossdav01.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-nossdav-2001.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Jussi Kangasharju</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.nossdav.org/2001/&apos;&gt;International Workshop on Network and Operating Systems Support for Digital Audio and Video&lt;/a&gt;, pp. 3-10, Port Jefferson, New York, June 2001 [acceptance rate 33% of 60]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Architectural Considerations for Playback of Quality Adaptive Video over the Internet</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/icon00.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-icon-2000.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Mark Handely, Deborah Estrin</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.comp.nus.edu.sg/%7Eicon/&apos;&gt;IEEE International Conference on Networks (ICON'2000)&lt;/a&gt;, pp. 204-209, Singapore, September 2000
+            </line>
+		</publication>
+        
+        <publication>
+			<title>On Design of Internet Multimedia Streaming Applications: An Architectural Perspective</title>
+			<link>
+				<type>Postscript</type>
+				<url>../pub/ieee-mm00.ps</url>
+				<icon>ps_icon.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-ieee-mm-2000.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie</line>
+			<line>Proceedings of &lt;a href=&apos;http://ieee-multimedia.poly.edu/&apos;&gt;IEEE International Conference on Multimedia and Expo&lt;/a&gt;, pp. 327-330, New York, August 2000.
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Multimedia Proxy Caching Mechanism for Quality Adaptive Streaming Applications in the Internet</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/infocom00.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-infocom-2000.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Haobo Yu, Mark Handely, Deborah Estrin</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.cse.ucsc.edu/%7Erom/infocom2000/&apos;&gt;IEEE INFOCOM&lt;/a&gt; , pp. 980-989, Tel-Aviv, Israel, March 2000 [acceptance rate 26% of 735]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Quality Adaptation for Congestion Controlled Video Playback over the Internet</title>
+			<link>
+				<type>Postscript</type>
+				<url>../pub/sigcomm99.ps</url>
+				<icon>ps_icon.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-infocom-2000.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Mark Handley, Deborah Estrin</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.acm.org/sigcomm/sigcomm99&apos;&gt;ACM SIGCOMM '99&lt;/a&gt; , pp. 189-200, Cambridge, MA, September 1999 [acceptance rate 12% of 190]
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Proxy Caching Mechanism for Multimedia Playback Streams in the Internet</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/wcw99.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-wcw-1999.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie, Mark Handley, Haobo Yu, Deborah Estrin</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.ircache.net/Cache/Workshop99/&apos;&gt;4th International Web Caching Workshop&lt;/a&gt;, pp. 100-111, San Diego, CA, March 1999 [acceptance rate 50% of 38]
+            </line>
+		</publication>
+
+        <publication>
+			<title>RAP: An End-to-end Rate-based Congestion Control Mechanism for Realtime Streams in the Internet</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/infocom99.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Reza Rejaie, Mark Handely, Deborah Estrin</line>
+			<line>Proceedings of &lt;a href=&apos;http://www.comm.utoronto.ca/%7Einfocom99/&apos;&gt;IEEE INFOCOM&lt;/a&gt;, pp. 1337-1345, New York, NY, March 1999 [acceptance rate 30% of 600]
+            </line>
+            <line>&lt;b&gt;This paper is one of the top ten most cited articles in computer science published in 1999 according to &lt;a href=&apos;http://citeseer.ist.psu.edu/articles1999.html&apos;&gt;CiteSeer&lt;/a&gt;&lt;/b&gt;
+            </line>
+		</publication>
+    </section>
+    <section>
+        <section_title>Refereed Extended Abstract and Posters</section_title>
+		<section_id>3</section_id>
+        <publication>
+			<title>Understanding the Effect of P2P Overlay On the AS-Level Underlay</title>
+			<link>
+				<type>Paper</type>
+				<url>../pub/conext-2007-paper.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Poster</type>
+				<url>../pub/conext-2007-poster.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Amir H. Rasti, Reza Rejaie, Walter Willinger</line>
+			<line>Proceedings of &lt;a href=&apos;http://edas.info/W5371&apos;&gt;CoNEXT Conference&lt;/a&gt;, Student Workshop, Columbia University, New York, NY, December 2007
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Peer-to-Peer Receiver-driven Mesh-based Streaming</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/sigcomm05-poster.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../slide/magharei-sigcomm-2005.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Nazanin Magharei, Amir H. Rasti, Daniel Stutzbach, Reza Rejaie</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.acm.org/sigs/sigcomm/sigcomm2005/&apos;&gt;ACM SIGCOMM&lt;/a&gt;, &lt;a href=&apos;http://www.acm.org/sigs/sigcomm/sigcomm2005/poster.html&apos;&gt;Poster Session&lt;/a&gt;, August 2005
+            </line>
+		</publication>
+        <publication>
+			<title>Characterizing the Two-Tier Gnutella Topology</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/sigmet04-extabs.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../slide/stutzbach-sigmetrics-2005.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>D. Stutzbach, R. Rejaie</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.cse.cuhk.edu.hk/%7Esigm2005/&apos;&gt;ACM SIGMETRICS&lt;/a&gt;, Poster Session, pp. 402-403, Alberta Canada, June 2005
+            </line>
+		</publication>
+        
+        <publication>
+			<title>Evaluating the Accuracy of Captured Snapshots by Peer-to-Peer Crawlers</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/pam05-extabs.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../slide/stutzbach-pam-2005.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>D. Stutzbach, R. Rejaie</line>
+			<line>Proceedings of the &lt;a href=&apos;http://www.pam2005.org/&apos;&gt;Passive &amp; Active Measurement Workshop&lt;/a&gt;, Extended abstract, pp. 353-357, Boston, MA, March 2005
+            </line>
+		</publication>
+    </section>
+    <section>
+        <section_title>Technical Reports</section_title>
+		<section_id>4</section_id>
+        <publication>
+			<title>Characterizing the Global Impact of the P2P Overlay on the AS-level Underlay</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/tr10-01.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Amir H. Rasti, Reza Rejaie, Walter Willinger</line>
+			<line>Technical Report CIS-TR-10-01, University of Oregon, January 2010
+            </line>
+		</publication>
+        <publication>
+			<title>Evaluating Sampling Techniques for Large Dynamic Graphs</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/tr08-01.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Amir H. Rasti, Mojtaba Torkjazi, Reza Rejaie, Nick Duffield, Walter Willinger, Daniel Stutzbach</line>
+			<line>Technical Report CIS-TR-08-01, University of Oregon, September 2008
+            </line>
+		</publication>
+        <publication>
+			<title>Towards a Better Understanding of Churn in Peer-to-Peer Networks</title>
+			<link>
+				<type>PDF</type>
+				<url>../pub/tr04-06.pdf</url>
+				<icon>Acrobat.gif</icon>
+			</link>
+			<line>Daniel Stutzbach, Reza Rejaie</line>
+			<line>Technical Report CIS-TR-04-06, University of Oregon, November 2004
+            </line>
+		</publication>
+        <publication>
+			<title>Proxy Caching for Quality Adaptive Multimedia Streams in the Internet: A Performance Perspective</title>
+			<link>
+				<type>Postscript</type>
+				<url>../pub/mc-eval99.ps</url>
+				<icon>ps_icon.gif</icon>
+			</link>
+			<line>Reza Rejaie, Haobo Yu</line>
+			<line>Technical Report, February 2000
+            </line>
+		</publication>
+        <publication>
+			<title>An End-to-End Architecture for Quality Adaptive Streaming Applications in the Internet</title>
+			<link>
+				<type>Postscript</type>
+				<url>http://netweb.usc.edu/reza/papers/dis.ps.gz</url>
+				<icon>ps_icon.gif</icon>
+			</link>
+            <link>
+				<type>Powerpoint</type>
+				<url>../slide/rejaie-thesis.ppt</url>
+				<icon>ppt-icon.jpg</icon>
+			</link>
+			<line>Reza Rejaie</line>
+			<line>Ph.D. Dissertation, Computer Science Department, USC, September 1999
+            </line>
+		</publication>
+    </section>
+</publications>
